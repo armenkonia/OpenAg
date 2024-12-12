@@ -1,0 +1,672 @@
+,Crop_OpenAg,County,ACRES,Neighboring Counties,usda crop,price_2020,yield_2020
+0,Alfalfa,Alameda,77.80064626000001,"['San Francisco', 'Contra Costa', 'Santa Clara', 'San Joaquin', 'Stanislaus', 'San Mateo']",Hay Alfalfa,219.79,5.5
+1,Alfalfa,Alpine,68.84845651,"['Calaveras', 'Mono', 'Tuolumne', 'El Dorado', 'Amador']",,,
+2,Alfalfa,Amador,664.42489738,"['Sacramento', 'Calaveras', 'Alpine', 'El Dorado', 'San Joaquin']",Hay Alfalfa,250.1,7.0
+3,Alfalfa,Butte,494.68611914,"['Yuba', 'Colusa', 'Tehama', 'Sutter', 'Plumas', 'Glenn']",Hay Alfalfa,200.0,7.0
+4,Alfalfa,Colusa,6304.14101103,"['Yolo', 'Butte', 'Sutter', 'Lake', 'Glenn']",Hay Alfalfa,201.32,7.21
+5,Alfalfa,Contra Costa,3075.31760376,"['Sacramento', 'Sonoma', 'San Francisco', 'Marin', 'Solano', 'San Joaquin', 'Alameda']",Hay Alfalfa,189.71,4.83
+6,Alfalfa,Del Norte,222.8456727,"['Humboldt', 'Siskiyou']",,,
+7,Alfalfa,Fresno,32558.93769292,"['Kings', 'Monterey', 'Inyo', 'Mono', 'San Benito', 'Madera', 'Merced', 'Tulare']",Hay Alfalfa,209.0,6.86
+8,Alfalfa,Glenn,6468.08701318,"['Mendocino', 'Colusa', 'Tehama', 'Butte', 'Lake']",Hay Alfalfa,181.98,6.57
+9,Alfalfa,Humboldt,570.58130125,"['Trinity', 'Mendocino', 'Del Norte', 'Siskiyou']",,,
+10,Alfalfa,Imperial,139647.71871206,"['San Diego', 'Riverside']",Hay Alfalfa,176.6,7.88
+11,Alfalfa,Inyo,2166.63364528,"['Mono', 'San Bernardino', 'Kern', 'Fresno', 'Tulare']",Hay Alfalfa,200.38,
+12,Alfalfa,Kern,39431.94193151,"['Santa Barbara', 'Ventura', 'Los Angeles', 'Kings', 'Inyo', 'San Bernardino', 'Tulare', 'San Luis Obispo']",Hay Alfalfa,188.86,8.56
+13,Alfalfa,Kings,26449.33211549,"['Monterey', 'Kern', 'Fresno', 'Tulare', 'San Luis Obispo']",Hay Alfalfa,188.75,8.15
+14,Alfalfa,Lassen,31134.32468229,"['Sierra', 'Shasta', 'Modoc', 'Plumas']",,,
+15,Alfalfa,Los Angeles,5214.70105128,"['Ventura', 'San Bernardino', 'Kern', 'Orange']",,,
+16,Alfalfa,Madera,8313.4732976,"['Mariposa', 'Mono', 'Tuolumne', 'Fresno', 'Merced']",Hay Alfalfa,215.03,6.81
+17,Alfalfa,Mendocino,59.74146224,"['Sonoma', 'Trinity', 'Humboldt', 'Tehama', 'Lake', 'Glenn']",,,
+18,Alfalfa,Merced,45004.36579067,"['Mariposa', 'San Benito', 'Fresno', 'Madera', 'Santa Clara', 'Stanislaus']",Hay Alfalfa,200.98,6.57
+19,Alfalfa,Modoc,42419.43226854,"['Lassen', 'Shasta', 'Siskiyou']",Hay Alfalfa,169.96,7.0
+20,Alfalfa,Mono,8529.40272797,"['Inyo', 'Tuolumne', 'Alpine', 'Fresno', 'Madera']",Hay Alfalfa,203.93,
+21,Alfalfa,Monterey,537.37979147,"['Kings', 'San Benito', 'Fresno', 'Santa Cruz', 'San Luis Obispo']",Hay Alfalfa,108.84,3.22
+22,Alfalfa,Placer,438.01810194,"['Sacramento', 'El Dorado', 'Yuba', 'Nevada', 'Sutter']",,,
+23,Alfalfa,Plumas,4542.76066419,"['Sierra', 'Lassen', 'Shasta', 'Yuba', 'Tehama', 'Butte']",Hay Alfalfa,224.85,3.5
+24,Alfalfa,Riverside,48371.0911481,"['San Diego', 'San Bernardino', 'Orange', 'Imperial']",Hay Alfalfa,207.82,8.0
+25,Alfalfa,Sacramento,12145.09705846,"['Placer', 'Solano', 'Contra Costa', 'El Dorado', 'Yolo', 'San Joaquin', 'Sutter', 'Amador']",Hay Alfalfa,185.02,6.12
+26,Alfalfa,San Benito,8.12339201,"['Monterey', 'Fresno', 'Santa Clara', 'Merced', 'Santa Cruz']",,,
+27,Alfalfa,San Bernardino,7599.44368523,"['Los Angeles', 'Inyo', 'Riverside', 'Kern', 'Orange']",Hay Alfalfa,201.9,6.98
+28,Alfalfa,San Diego,103.86428402,"['Riverside', 'Orange', 'Imperial']",,,
+29,Alfalfa,San Joaquin,42353.97434502,"['Sacramento', 'Calaveras', 'Contra Costa', 'Alameda', 'Stanislaus', 'Amador']",Hay Alfalfa,185.08,7.12
+30,Alfalfa,San Luis Obispo,1278.80313098,"['Santa Barbara', 'Kings', 'Monterey', 'Kern']",Hay Alfalfa,275.14,5.24
+31,Alfalfa,Santa Barbara,382.12680612,"['Ventura', 'Kern', 'San Luis Obispo']",,,
+32,Alfalfa,Santa Clara,84.58347712,"['San Benito', 'Alameda', 'Merced', 'Stanislaus', 'San Mateo', 'Santa Cruz']",,,
+33,Alfalfa,Santa Cruz,1.70544675,"['Monterey', 'San Benito', 'Santa Clara', 'San Mateo']",,,
+34,Alfalfa,Shasta,4424.34250394,"['Lassen', 'Trinity', 'Modoc', 'Tehama', 'Plumas', 'Siskiyou']",Hay Alfalfa,232.3,7.29
+35,Alfalfa,Sierra,866.84009949,"['Lassen', 'Yuba', 'Nevada', 'Plumas']",Hay Alfalfa,225.06,2.75
+36,Alfalfa,Siskiyou,40369.77321314,"['Shasta', 'Trinity', 'Humboldt', 'Del Norte', 'Modoc']",Hay Alfalfa,208.73,6.26
+37,Alfalfa,Solano,17499.419459830002,"['Sacramento', 'Sonoma', 'Marin', 'Napa', 'Contra Costa', 'Yolo']",Hay Alfalfa,189.43,5.41
+38,Alfalfa,Stanislaus,16194.28400368,"['Calaveras', 'Mariposa', 'Tuolumne', 'Santa Clara', 'San Joaquin', 'Alameda', 'Merced']",Hay Alfalfa,196.0,6.93
+39,Alfalfa,Sutter,3669.78709341,"['Sacramento', 'Placer', 'Yolo', 'Yuba', 'Colusa', 'Butte']",Hay Alfalfa,238.61,6.25
+40,Alfalfa,Tehama,1221.31171555,"['Shasta', 'Trinity', 'Mendocino', 'Butte', 'Plumas', 'Glenn']",Hay Alfalfa,203.54,6.84
+41,Alfalfa,Tulare,35349.40083465,"['Kings', 'Inyo', 'Kern', 'Fresno']",Hay Alfalfa,208.0,7.78
+42,Alfalfa,Ventura,78.56779911,"['Santa Barbara', 'Los Angeles', 'Kern']",,,
+43,Alfalfa,Yolo,23566.07662165,"['Sacramento', 'Napa', 'Solano', 'Colusa', 'Sutter', 'Lake']",Hay Alfalfa,202.0,5.58
+44,Alfalfa,Yuba,244.36145457,"['Sierra', 'Placer', 'Nevada', 'Butte', 'Sutter', 'Plumas']",Hay Alfalfa,239.88,7.21
+45,Almonds,Alameda,1409.60803823,"['San Francisco', 'Contra Costa', 'Santa Clara', 'San Joaquin', 'Stanislaus', 'San Mateo']",,,
+46,Almonds,Butte,36064.2977486,"['Yuba', 'Colusa', 'Tehama', 'Sutter', 'Plumas', 'Glenn']",Almonds All,3501.5,1.12
+47,Almonds,Calaveras,252.85755592,"['Tuolumne', 'Alpine', 'San Joaquin', 'Stanislaus', 'Amador']",Almonds All,1980.95,0.12
+48,Almonds,Colusa,67455.29373649,"['Yolo', 'Butte', 'Sutter', 'Lake', 'Glenn']",Almonds All,3899.73,1.15
+49,Almonds,Contra Costa,322.91345344,"['Sacramento', 'Sonoma', 'San Francisco', 'Marin', 'Solano', 'San Joaquin', 'Alameda']",,,
+50,Almonds,Fresno,288816.93137824,"['Kings', 'Monterey', 'Inyo', 'Mono', 'San Benito', 'Madera', 'Merced', 'Tulare']",Almonds All,3512.0,1.24
+51,Almonds,Glenn,56605.98184128,"['Mendocino', 'Colusa', 'Tehama', 'Butte', 'Lake']",Almonds All,3242.93,1.06
+52,Almonds,Kern,226873.65282052,"['Santa Barbara', 'Ventura', 'Los Angeles', 'Kings', 'Inyo', 'San Bernardino', 'Tulare', 'San Luis Obispo']",Almonds All,3894.92,1.24
+53,Almonds,Kings,38882.917442,"['Monterey', 'Kern', 'Fresno', 'Tulare', 'San Luis Obispo']",Almonds All,3506.02,1.21
+54,Almonds,Lake,38.53840527,"['Sonoma', 'Napa', 'Mendocino', 'Yolo', 'Colusa', 'Glenn']",,,
+55,Almonds,Madera,159846.03422813,"['Mariposa', 'Mono', 'Tuolumne', 'Fresno', 'Merced']",Almonds All,3481.45,1.21
+56,Almonds,Merced,159489.95296909,"['Mariposa', 'San Benito', 'Fresno', 'Madera', 'Santa Clara', 'Stanislaus']",Almonds All,3648.09,1.25
+57,Almonds,Placer,2709.80502841,"['Sacramento', 'El Dorado', 'Yuba', 'Nevada', 'Sutter']",Almonds All,3298.37,0.54
+58,Almonds,Riverside,6.07320167,"['San Diego', 'San Bernardino', 'Orange', 'Imperial']",,,
+59,Almonds,Sacramento,2316.66629796,"['Placer', 'Solano', 'Contra Costa', 'El Dorado', 'Yolo', 'San Joaquin', 'Sutter', 'Amador']",Almonds All,3404.35,0.7
+60,Almonds,San Joaquin,91205.36446329,"['Sacramento', 'Calaveras', 'Contra Costa', 'Alameda', 'Stanislaus', 'Amador']",Almonds All,3792.52,1.76
+61,Almonds,San Luis Obispo,2222.78408553,"['Santa Barbara', 'Kings', 'Monterey', 'Kern']",,,
+62,Almonds,Shasta,3.17944378,"['Lassen', 'Trinity', 'Modoc', 'Tehama', 'Plumas', 'Siskiyou']",,,
+63,Almonds,Solano,21610.18338875,"['Sacramento', 'Sonoma', 'Marin', 'Napa', 'Contra Costa', 'Yolo']",Almonds All,3595.74,0.77
+64,Almonds,Stanislaus,195714.77687017,"['Calaveras', 'Mariposa', 'Tuolumne', 'Santa Clara', 'San Joaquin', 'Alameda', 'Merced']",Almonds All,3720.0,1.06
+65,Almonds,Sutter,15648.47434244,"['Sacramento', 'Placer', 'Yolo', 'Yuba', 'Colusa', 'Butte']",Almonds All,3014.32,0.92
+66,Almonds,Tehama,18192.33714087,"['Shasta', 'Trinity', 'Mendocino', 'Butte', 'Plumas', 'Glenn']",Almonds All,3493.18,0.94
+67,Almonds,Tulare,83314.48910754,"['Kings', 'Inyo', 'Kern', 'Fresno']",Almonds All,3460.0,1.1
+68,Almonds,Yolo,42600.12200373,"['Sacramento', 'Napa', 'Solano', 'Colusa', 'Sutter', 'Lake']",Almonds All,2500.0,1.06
+69,Almonds,Yuba,2374.60987309,"['Sierra', 'Placer', 'Nevada', 'Butte', 'Sutter', 'Plumas']",Almonds All,3417.82,0.95
+70,Beans Dry,Butte,533.13738375,"['Yuba', 'Colusa', 'Tehama', 'Sutter', 'Plumas', 'Glenn']",Beans Dry Edible Unspecified,1099.75,2.1
+71,Beans Dry,Colusa,2916.02742147,"['Yolo', 'Butte', 'Sutter', 'Lake', 'Glenn']",Beans Dry Edible Unspecified,989.03,1.03
+72,Beans Dry,Contra Costa,459.15088137,"['Sacramento', 'Sonoma', 'San Francisco', 'Marin', 'Solano', 'San Joaquin', 'Alameda']",,,
+73,Beans Dry,Fresno,861.33957619,"['Kings', 'Monterey', 'Inyo', 'Mono', 'San Benito', 'Madera', 'Merced', 'Tulare']",Beans Dry Edible Unspecified,,
+74,Beans Dry,Glenn,1037.2414482,"['Mendocino', 'Colusa', 'Tehama', 'Butte', 'Lake']",Beans Dry Edible Unspecified,1020.0,1.1
+75,Beans Dry,Kern,776.89917944,"['Santa Barbara', 'Ventura', 'Los Angeles', 'Kings', 'Inyo', 'San Bernardino', 'Tulare', 'San Luis Obispo']",Beans Dry Edible Unspecified,923.73,2.11
+76,Beans Dry,Kings,527.10988985,"['Monterey', 'Kern', 'Fresno', 'Tulare', 'San Luis Obispo']",,,
+77,Beans Dry,Madera,185.29352121,"['Mariposa', 'Mono', 'Tuolumne', 'Fresno', 'Merced']",,,
+78,Beans Dry,Merced,808.39657445,"['Mariposa', 'San Benito', 'Fresno', 'Madera', 'Santa Clara', 'Stanislaus']",Beans Lima Large Dry,1088.64,1.28
+79,Beans Dry,Monterey,161.25881571,"['Kings', 'San Benito', 'Fresno', 'Santa Cruz', 'San Luis Obispo']",Beans Dry Edible Unspecified,2080.23,1.5
+80,Beans Dry,Riverside,127.42333875,"['San Diego', 'San Bernardino', 'Orange', 'Imperial']",Beans Fresh Unspecified,295.17,25.11
+81,Beans Dry,Sacramento,863.44430488,"['Placer', 'Solano', 'Contra Costa', 'El Dorado', 'Yolo', 'San Joaquin', 'Sutter', 'Amador']",,,
+82,Beans Dry,San Benito,102.33197074,"['Monterey', 'Fresno', 'Santa Clara', 'Merced', 'Santa Cruz']",,,
+83,Beans Dry,San Joaquin,5354.63771834,"['Sacramento', 'Calaveras', 'Contra Costa', 'Alameda', 'Stanislaus', 'Amador']",,,
+84,Beans Dry,San Luis Obispo,191.20668982,"['Santa Barbara', 'Kings', 'Monterey', 'Kern']",,,
+85,Beans Dry,San Mateo,23.97539207,"['San Francisco', 'Santa Clara', 'Alameda', 'Santa Cruz']",Beans Snap Unspecified,2747.13,2.42
+86,Beans Dry,Santa Barbara,873.24719337,"['Ventura', 'Kern', 'San Luis Obispo']",Beans Dry Edible Unspecified,,
+87,Beans Dry,Santa Clara,201.51808476,"['San Benito', 'Alameda', 'Merced', 'Stanislaus', 'San Mateo', 'Santa Cruz']",Beans Snap Unspecified,1471.02,4.1
+88,Beans Dry,Santa Cruz,39.23827567,"['Monterey', 'San Benito', 'Santa Clara', 'San Mateo']",,,
+89,Beans Dry,Siskiyou,33.31078567,"['Shasta', 'Trinity', 'Humboldt', 'Del Norte', 'Modoc']",,,
+90,Beans Dry,Solano,2183.32750177,"['Sacramento', 'Sonoma', 'Marin', 'Napa', 'Contra Costa', 'Yolo']",Beans Dry Edible Unspecified,1015.59,1.39
+91,Beans Dry,Stanislaus,4355.90214941,"['Calaveras', 'Mariposa', 'Tuolumne', 'Santa Clara', 'San Joaquin', 'Alameda', 'Merced']",Beans Lima Large Dry,1500.0,1.21
+92,Beans Dry,Sutter,3657.5054879,"['Sacramento', 'Placer', 'Yolo', 'Yuba', 'Colusa', 'Butte']",Beans Dry Edible Unspecified,,
+93,Beans Dry,Tulare,1840.10298913,"['Kings', 'Inyo', 'Kern', 'Fresno']",Beans Dry Edible Unspecified,1810.13,1.1
+94,Beans Dry,Ventura,1153.44227847,"['Santa Barbara', 'Los Angeles', 'Kern']",Beans Fresh Unspecified,840.87,1.18
+95,Beans Dry,Yolo,1232.38611742,"['Sacramento', 'Napa', 'Solano', 'Colusa', 'Sutter', 'Lake']",,,
+96,Berries,Butte,17.76337062,"['Yuba', 'Colusa', 'Tehama', 'Sutter', 'Plumas', 'Glenn']",,,
+97,Berries,Contra Costa,5.53704956,"['Sacramento', 'Sonoma', 'San Francisco', 'Marin', 'Solano', 'San Joaquin', 'Alameda']",,,
+98,Berries,Del Norte,4.41829814,"['Humboldt', 'Siskiyou']",,,
+99,Berries,El Dorado,8.32519697,"['Sacramento', 'Placer', 'Alpine', 'Amador']",,,
+100,Berries,Fresno,1526.05476529,"['Kings', 'Monterey', 'Inyo', 'Mono', 'San Benito', 'Madera', 'Merced', 'Tulare']",Berries Blueberries,6363.02,3.52
+101,Berries,Glenn,85.99669535,"['Mendocino', 'Colusa', 'Tehama', 'Butte', 'Lake']",,,
+102,Berries,Humboldt,13.98448141,"['Trinity', 'Mendocino', 'Del Norte', 'Siskiyou']",,,
+103,Berries,Kern,1133.63674433,"['Santa Barbara', 'Ventura', 'Los Angeles', 'Kings', 'Inyo', 'San Bernardino', 'Tulare', 'San Luis Obispo']",Berries Blueberries,6808.0,9.13
+104,Berries,Kings,120.52785441,"['Monterey', 'Kern', 'Fresno', 'Tulare', 'San Luis Obispo']",,,
+105,Berries,Lake,0.56032692,"['Sonoma', 'Napa', 'Mendocino', 'Yolo', 'Colusa', 'Glenn']",,,
+106,Berries,Lassen,222.76504006,"['Sierra', 'Shasta', 'Modoc', 'Plumas']",,,
+107,Berries,Los Angeles,12.65701873,"['Ventura', 'San Bernardino', 'Kern', 'Orange']",,,
+108,Berries,Madera,11.81906621,"['Mariposa', 'Mono', 'Tuolumne', 'Fresno', 'Merced']",,,
+109,Berries,Mendocino,6.97410687,"['Sonoma', 'Trinity', 'Humboldt', 'Tehama', 'Lake', 'Glenn']",,,
+110,Berries,Merced,211.30302701,"['Mariposa', 'San Benito', 'Fresno', 'Madera', 'Santa Clara', 'Stanislaus']",,,
+111,Berries,Monterey,12793.7477382,"['Kings', 'San Benito', 'Fresno', 'Santa Cruz', 'San Luis Obispo']",Berries Strawberries All,2497.11,36.95
+112,Berries,Nevada,2.79855112,"['Sierra', 'Placer', 'Yuba']",,,
+113,Berries,Orange,253.2188968,"['Los Angeles', 'San Diego', 'San Bernardino', 'Riverside']",,,
+114,Berries,Riverside,15.49062528,"['San Diego', 'San Bernardino', 'Orange', 'Imperial']",Berries Strawberries All,3582.92,10.5
+115,Berries,Sacramento,95.6511374,"['Placer', 'Solano', 'Contra Costa', 'El Dorado', 'Yolo', 'San Joaquin', 'Sutter', 'Amador']",,,
+116,Berries,San Benito,147.19599538,"['Monterey', 'Fresno', 'Santa Clara', 'Merced', 'Santa Cruz']",,,
+117,Berries,San Bernardino,42.03361621,"['Los Angeles', 'Inyo', 'Riverside', 'Kern', 'Orange']",Berries Strawberries All,6995.0,10.0
+118,Berries,San Diego,338.0723721,"['Riverside', 'Orange', 'Imperial']",Berries Strawberries All,2389.63,27.0
+119,Berries,San Joaquin,2007.80492809,"['Sacramento', 'Calaveras', 'Contra Costa', 'Alameda', 'Stanislaus', 'Amador']",Berries Blueberries,7063.08,4.23
+120,Berries,San Luis Obispo,4290.87810579,"['Santa Barbara', 'Kings', 'Monterey', 'Kern']",Berries Strawberries All,2201.85,32.09
+121,Berries,San Mateo,11.38236795,"['San Francisco', 'Santa Clara', 'Alameda', 'Santa Cruz']",,,
+122,Berries,Santa Barbara,11998.67383383,"['Ventura', 'Kern', 'San Luis Obispo']",Berries Strawberries All,1906.8,36.33
+123,Berries,Santa Clara,6.23286231,"['San Benito', 'Alameda', 'Merced', 'Stanislaus', 'San Mateo', 'Santa Cruz']",,,
+124,Berries,Santa Cruz,5164.36748607,"['Monterey', 'San Benito', 'Santa Clara', 'San Mateo']",Berries Strawberries All,2599.34,34.86
+125,Berries,Shasta,208.83835706,"['Lassen', 'Trinity', 'Modoc', 'Tehama', 'Plumas', 'Siskiyou']",,,
+126,Berries,Siskiyou,2566.16723829,"['Shasta', 'Trinity', 'Humboldt', 'Del Norte', 'Modoc']",,,
+127,Berries,Solano,28.75581274,"['Sacramento', 'Sonoma', 'Marin', 'Napa', 'Contra Costa', 'Yolo']",,,
+128,Berries,Sonoma,31.87768521,"['Marin', 'Napa', 'Mendocino', 'Solano', 'Contra Costa', 'Lake']",,,
+129,Berries,Stanislaus,91.42468649,"['Calaveras', 'Mariposa', 'Tuolumne', 'Santa Clara', 'San Joaquin', 'Alameda', 'Merced']",,,
+130,Berries,Sutter,8.09835347,"['Sacramento', 'Placer', 'Yolo', 'Yuba', 'Colusa', 'Butte']",,,
+131,Berries,Tehama,155.56292998,"['Shasta', 'Trinity', 'Mendocino', 'Butte', 'Plumas', 'Glenn']",,,
+132,Berries,Tulare,2398.46430406,"['Kings', 'Inyo', 'Kern', 'Fresno']",Berries Blueberries,6210.0,4.49
+133,Berries,Ventura,14342.45550944,"['Santa Barbara', 'Los Angeles', 'Kern']",Berries Strawberries All,2538.04,25.76
+134,Berries,Yolo,4.23089347,"['Sacramento', 'Napa', 'Solano', 'Colusa', 'Sutter', 'Lake']",,,
+135,Corn,Alameda,71.30338296,"['San Francisco', 'Contra Costa', 'Santa Clara', 'San Joaquin', 'Stanislaus', 'San Mateo']",,,
+136,Corn,Amador,2.21239761,"['Sacramento', 'Calaveras', 'Alpine', 'El Dorado', 'San Joaquin']",,,
+137,Corn,Butte,542.09458935,"['Yuba', 'Colusa', 'Tehama', 'Sutter', 'Plumas', 'Glenn']",,,
+138,Corn,Colusa,4285.43961416,"['Yolo', 'Butte', 'Sutter', 'Lake', 'Glenn']",Corn Grain,173.35,6.73
+139,Corn,Contra Costa,8785.28862218,"['Sacramento', 'Sonoma', 'San Francisco', 'Marin', 'Solano', 'San Joaquin', 'Alameda']",Corn Sweet All,611.17,10.48
+140,Corn,Fresno,39307.75062115,"['Kings', 'Monterey', 'Inyo', 'Mono', 'San Benito', 'Madera', 'Merced', 'Tulare']",Corn Silage,52.0,19.68
+141,Corn,Glenn,9866.37441019,"['Mendocino', 'Colusa', 'Tehama', 'Butte', 'Lake']",Corn Grain,,
+142,Corn,Humboldt,818.72880491,"['Trinity', 'Mendocino', 'Del Norte', 'Siskiyou']",,,
+143,Corn,Imperial,52815.32823203,"['San Diego', 'Riverside']",Corn Sweet All,560.76,22.44
+144,Corn,Kern,41463.45966004,"['Santa Barbara', 'Ventura', 'Los Angeles', 'Kings', 'Inyo', 'San Bernardino', 'Tulare', 'San Luis Obispo']",,,
+145,Corn,Kings,59616.11393967,"['Monterey', 'Kern', 'Fresno', 'Tulare', 'San Luis Obispo']",Corn Silage,51.31,26.36
+146,Corn,Lake,8.66806388,"['Sonoma', 'Napa', 'Mendocino', 'Yolo', 'Colusa', 'Glenn']",,,
+147,Corn,Lassen,5.67933692,"['Sierra', 'Shasta', 'Modoc', 'Plumas']",,,
+148,Corn,Los Angeles,164.31775328,"['Ventura', 'San Bernardino', 'Kern', 'Orange']",,,
+149,Corn,Madera,19522.10282408,"['Mariposa', 'Mono', 'Tuolumne', 'Fresno', 'Merced']",Corn Silage,52.95,26.11
+150,Corn,Marin,11.66673111,"['Sonoma', 'San Francisco', 'Solano', 'Contra Costa']",,,
+151,Corn,Merced,95743.33223181,"['Mariposa', 'San Benito', 'Fresno', 'Madera', 'Santa Clara', 'Stanislaus']",Corn Silage,45.69,25.9
+152,Corn,Monterey,1.71309198,"['Kings', 'San Benito', 'Fresno', 'Santa Cruz', 'San Luis Obispo']",,,
+153,Corn,Placer,208.99322334,"['Sacramento', 'El Dorado', 'Yuba', 'Nevada', 'Sutter']",,,
+154,Corn,Riverside,3604.37175479,"['San Diego', 'San Bernardino', 'Orange', 'Imperial']",Corn Sweet All,421.69,15.63
+155,Corn,Sacramento,22667.43380677,"['Placer', 'Solano', 'Contra Costa', 'El Dorado', 'Yolo', 'San Joaquin', 'Sutter', 'Amador']",Corn Grain,145.65,4.51
+156,Corn,San Bernardino,2143.68554566,"['Los Angeles', 'Inyo', 'Riverside', 'Kern', 'Orange']",Corn Silage,50.42,17.39
+157,Corn,San Joaquin,66180.97598666,"['Sacramento', 'Calaveras', 'Contra Costa', 'Alameda', 'Stanislaus', 'Amador']",Corn Silage,62.45,27.34
+158,Corn,San Luis Obispo,62.45082192,"['Santa Barbara', 'Kings', 'Monterey', 'Kern']",,,
+159,Corn,Santa Clara,788.29103552,"['San Benito', 'Alameda', 'Merced', 'Stanislaus', 'San Mateo', 'Santa Cruz']",Corn Sweet All,547.05,10.77
+160,Corn,Santa Cruz,4.4089396,"['Monterey', 'San Benito', 'Santa Clara', 'San Mateo']",,,
+161,Corn,Siskiyou,145.30591772,"['Shasta', 'Trinity', 'Humboldt', 'Del Norte', 'Modoc']",,,
+162,Corn,Solano,9382.39889744,"['Sacramento', 'Sonoma', 'Marin', 'Napa', 'Contra Costa', 'Yolo']",Corn Grain,171.6,5.55
+163,Corn,Sonoma,10.485176030000002,"['Marin', 'Napa', 'Mendocino', 'Solano', 'Contra Costa', 'Lake']",Corn Silage,54.15,23.47
+164,Corn,Stanislaus,52914.30317377,"['Calaveras', 'Mariposa', 'Tuolumne', 'Santa Clara', 'San Joaquin', 'Alameda', 'Merced']",Corn Silage,51.0,26.62
+165,Corn,Sutter,5602.02491113,"['Sacramento', 'Placer', 'Yolo', 'Yuba', 'Colusa', 'Butte']",Corn Grain,186.15,7.16
+166,Corn,Tehama,1722.84608996,"['Shasta', 'Trinity', 'Mendocino', 'Butte', 'Plumas', 'Glenn']",Corn Grain,173.03,6.75
+167,Corn,Tulare,118122.16035063,"['Kings', 'Inyo', 'Kern', 'Fresno']",Corn Silage,53.4,28.3
+168,Corn,Ventura,46.27233384,"['Santa Barbara', 'Los Angeles', 'Kern']",,,
+169,Corn,Yolo,10082.47807094,"['Sacramento', 'Napa', 'Solano', 'Colusa', 'Sutter', 'Lake']",Corn Grain,157.0,5.97
+170,Corn,Yuba,1024.92337792,"['Sierra', 'Placer', 'Nevada', 'Butte', 'Sutter', 'Plumas']",,,
+171,Cotton,Colusa,453.04668632,"['Yolo', 'Butte', 'Sutter', 'Lake', 'Glenn']",,,
+172,Cotton,Fresno,34468.30803236,"['Kings', 'Monterey', 'Inyo', 'Mono', 'San Benito', 'Madera', 'Merced', 'Tulare']",Cotton Lint Pima,2255.37,0.88
+173,Cotton,Glenn,1107.30177425,"['Mendocino', 'Colusa', 'Tehama', 'Butte', 'Lake']",Cotton Lint Upland,1396.8,0.75
+174,Cotton,Imperial,2465.53332127,"['San Diego', 'Riverside']",Cotton Lint Upland,1437.8,0.83
+175,Cotton,Kern,10515.66396438,"['Santa Barbara', 'Ventura', 'Los Angeles', 'Kings', 'Inyo', 'San Bernardino', 'Tulare', 'San Luis Obispo']",Cotton Lint Pima,2260.98,0.78
+176,Cotton,Kings,87394.56650763,"['Monterey', 'Kern', 'Fresno', 'Tulare', 'San Luis Obispo']",Cotton Lint Pima,2266.72,0.83
+177,Cotton,Madera,392.91000002,"['Mariposa', 'Mono', 'Tuolumne', 'Fresno', 'Merced']",Cotton Lint Pima,2267.8,0.67
+178,Cotton,Merced,31245.16340128,"['Mariposa', 'San Benito', 'Fresno', 'Madera', 'Santa Clara', 'Stanislaus']",Cotton Lint Pima,2470.57,0.75
+179,Cotton,Riverside,4846.42323538,"['San Diego', 'San Bernardino', 'Orange', 'Imperial']",Cotton Lint Upland,,
+180,Cotton,San Joaquin,65.19424293,"['Sacramento', 'Calaveras', 'Contra Costa', 'Alameda', 'Stanislaus', 'Amador']",,,
+181,Cotton,Sutter,267.73192722,"['Sacramento', 'Placer', 'Yolo', 'Yuba', 'Colusa', 'Butte']",,,
+182,Cotton,Tulare,6769.17661934,"['Kings', 'Inyo', 'Kern', 'Fresno']",,,
+183,Cucurbits,Butte,54.35682951,"['Yuba', 'Colusa', 'Tehama', 'Sutter', 'Plumas', 'Glenn']",,,
+184,Cucurbits,Colusa,4438.68867029,"['Yolo', 'Butte', 'Sutter', 'Lake', 'Glenn']",,,
+185,Cucurbits,Contra Costa,109.88422736,"['Sacramento', 'Sonoma', 'San Francisco', 'Marin', 'Solano', 'San Joaquin', 'Alameda']",,,
+186,Cucurbits,El Dorado,5.46277483,"['Sacramento', 'Placer', 'Alpine', 'Amador']",,,
+187,Cucurbits,Fresno,20394.30226691,"['Kings', 'Monterey', 'Inyo', 'Mono', 'San Benito', 'Madera', 'Merced', 'Tulare']",Melons Cantaloupe,477.0,17.26
+188,Cucurbits,Glenn,1803.76694503,"['Mendocino', 'Colusa', 'Tehama', 'Butte', 'Lake']",,,
+189,Cucurbits,Imperial,6071.41092135,"['San Diego', 'Riverside']",Melons Cantaloupe,446.35,36.24
+190,Cucurbits,Kern,1943.77341699,"['Santa Barbara', 'Ventura', 'Los Angeles', 'Kings', 'Inyo', 'San Bernardino', 'Tulare', 'San Luis Obispo']",,,
+191,Cucurbits,Kings,984.92615865,"['Monterey', 'Kern', 'Fresno', 'Tulare', 'San Luis Obispo']",,,
+192,Cucurbits,Lake,3.34246661,"['Sonoma', 'Napa', 'Mendocino', 'Yolo', 'Colusa', 'Glenn']",,,
+193,Cucurbits,Lassen,8.50434172,"['Sierra', 'Shasta', 'Modoc', 'Plumas']",,,
+194,Cucurbits,Los Angeles,12.84735421,"['Ventura', 'San Bernardino', 'Kern', 'Orange']",,,
+195,Cucurbits,Madera,48.53912045,"['Mariposa', 'Mono', 'Tuolumne', 'Fresno', 'Merced']",,,
+196,Cucurbits,Merced,3271.91077159,"['Mariposa', 'San Benito', 'Fresno', 'Madera', 'Santa Clara', 'Stanislaus']",,,
+197,Cucurbits,Monterey,72.68695577,"['Kings', 'San Benito', 'Fresno', 'Santa Cruz', 'San Luis Obispo']",Squash,613.04,10.38
+198,Cucurbits,Placer,2.81985353,"['Sacramento', 'El Dorado', 'Yuba', 'Nevada', 'Sutter']",,,
+199,Cucurbits,Riverside,2455.05821921,"['San Diego', 'San Bernardino', 'Orange', 'Imperial']",Melons Cantaloupe,401.19,15.95
+200,Cucurbits,Sacramento,831.01969418,"['Placer', 'Solano', 'Contra Costa', 'El Dorado', 'Yolo', 'San Joaquin', 'Sutter', 'Amador']",,,
+201,Cucurbits,San Benito,113.99661866,"['Monterey', 'Fresno', 'Santa Clara', 'Merced', 'Santa Cruz']",,,
+202,Cucurbits,San Bernardino,3.10411525,"['Los Angeles', 'Inyo', 'Riverside', 'Kern', 'Orange']",Pumpkins,431.21,12.36
+203,Cucurbits,San Diego,17.65446502,"['Riverside', 'Orange', 'Imperial']",Squash,1465.89,9.03
+204,Cucurbits,San Joaquin,9504.69289748,"['Sacramento', 'Calaveras', 'Contra Costa', 'Alameda', 'Stanislaus', 'Amador']",Cucumbers,198.93,7.89
+205,Cucurbits,San Luis Obispo,42.49270338,"['Santa Barbara', 'Kings', 'Monterey', 'Kern']",Squash,,
+206,Cucurbits,Santa Barbara,449.38711952,"['Ventura', 'Kern', 'San Luis Obispo']",Squash,,
+207,Cucurbits,Santa Clara,187.3301612,"['San Benito', 'Alameda', 'Merced', 'Stanislaus', 'San Mateo', 'Santa Cruz']",Squash,470.64,14.21
+208,Cucurbits,Shasta,69.14888712,"['Lassen', 'Trinity', 'Modoc', 'Tehama', 'Plumas', 'Siskiyou']",,,
+209,Cucurbits,Solano,1674.58927116,"['Sacramento', 'Sonoma', 'Marin', 'Napa', 'Contra Costa', 'Yolo']",,,
+210,Cucurbits,Sonoma,42.94811115,"['Marin', 'Napa', 'Mendocino', 'Solano', 'Contra Costa', 'Lake']",,,
+211,Cucurbits,Stanislaus,2636.21253771,"['Calaveras', 'Mariposa', 'Tuolumne', 'Santa Clara', 'San Joaquin', 'Alameda', 'Merced']",,,
+212,Cucurbits,Sutter,1675.88494337,"['Sacramento', 'Placer', 'Yolo', 'Yuba', 'Colusa', 'Butte']",,,
+213,Cucurbits,Tehama,8.29807601,"['Shasta', 'Trinity', 'Mendocino', 'Butte', 'Plumas', 'Glenn']",,,
+214,Cucurbits,Tulare,65.80442169,"['Kings', 'Inyo', 'Kern', 'Fresno']",,,
+215,Cucurbits,Ventura,163.62298656000002,"['Santa Barbara', 'Los Angeles', 'Kern']",,,
+216,Cucurbits,Yolo,4783.20088849,"['Sacramento', 'Napa', 'Solano', 'Colusa', 'Sutter', 'Lake']",,,
+217,Cucurbits,Yuba,244.40699017,"['Sierra', 'Placer', 'Nevada', 'Butte', 'Sutter', 'Plumas']",,,
+218,Field and Grain,Alameda,1557.66514233,"['San Francisco', 'Contra Costa', 'Santa Clara', 'San Joaquin', 'Stanislaus', 'San Mateo']",,,
+219,Field and Grain,Amador,1570.50021615,"['Sacramento', 'Calaveras', 'Alpine', 'El Dorado', 'San Joaquin']",Hay Grain,,
+220,Field and Grain,Butte,4614.25573622,"['Yuba', 'Colusa', 'Tehama', 'Sutter', 'Plumas', 'Glenn']",,,
+221,Field and Grain,Calaveras,487.66620762,"['Tuolumne', 'Alpine', 'San Joaquin', 'Stanislaus', 'Amador']",Hay Grain,,
+222,Field and Grain,Colusa,9025.59993596,"['Yolo', 'Butte', 'Sutter', 'Lake', 'Glenn']",Wheat All,185.44,2.87
+223,Field and Grain,Contra Costa,3526.24519931,"['Sacramento', 'Sonoma', 'San Francisco', 'Marin', 'Solano', 'San Joaquin', 'Alameda']",Hay Grain,126.35,1.75
+224,Field and Grain,Del Norte,351.04093068,"['Humboldt', 'Siskiyou']",,,
+225,Field and Grain,El Dorado,13.11285309,"['Sacramento', 'Placer', 'Alpine', 'Amador']",,,
+226,Field and Grain,Fresno,48743.8264929,"['Kings', 'Monterey', 'Inyo', 'Mono', 'San Benito', 'Madera', 'Merced', 'Tulare']",Wheat All,216.99,2.49
+227,Field and Grain,Glenn,12970.50768537,"['Mendocino', 'Colusa', 'Tehama', 'Butte', 'Lake']",Wheat All,179.79,3.19
+228,Field and Grain,Humboldt,1512.82301491,"['Trinity', 'Mendocino', 'Del Norte', 'Siskiyou']",,,
+229,Field and Grain,Imperial,38122.85148813,"['San Diego', 'Riverside']",Hay Other Unspecified,136.62,8.16
+230,Field and Grain,Inyo,66.25361322,"['Mono', 'San Bernardino', 'Kern', 'Fresno', 'Tulare']",,,
+231,Field and Grain,Kern,25633.42306556,"['Santa Barbara', 'Ventura', 'Los Angeles', 'Kings', 'Inyo', 'San Bernardino', 'Tulare', 'San Luis Obispo']",Wheat All,223.83,3.08
+232,Field and Grain,Kings,38157.60261456,"['Monterey', 'Kern', 'Fresno', 'Tulare', 'San Luis Obispo']",Wheat All,192.14,1.67
+233,Field and Grain,Lake,1836.37257662,"['Sonoma', 'Napa', 'Mendocino', 'Yolo', 'Colusa', 'Glenn']",,,
+234,Field and Grain,Lassen,13931.37921618,"['Sierra', 'Shasta', 'Modoc', 'Plumas']",Hay Other Unspecified,,
+235,Field and Grain,Los Angeles,6178.65363754,"['Ventura', 'San Bernardino', 'Kern', 'Orange']",,,
+236,Field and Grain,Madera,7719.59223391,"['Mariposa', 'Mono', 'Tuolumne', 'Fresno', 'Merced']",Hay Grain,,
+237,Field and Grain,Marin,4622.05220615,"['Sonoma', 'San Francisco', 'Solano', 'Contra Costa']",,,
+238,Field and Grain,Mariposa,29.4045766,"['Tuolumne', 'Madera', 'Merced', 'Stanislaus']",,,
+239,Field and Grain,Mendocino,4768.09743945,"['Sonoma', 'Trinity', 'Humboldt', 'Tehama', 'Lake', 'Glenn']",,,
+240,Field and Grain,Merced,38350.5712778,"['Mariposa', 'San Benito', 'Fresno', 'Madera', 'Santa Clara', 'Stanislaus']",Hay Grain,122.81,4.37
+241,Field and Grain,Modoc,27043.29413342,"['Lassen', 'Shasta', 'Siskiyou']",Wheat All,173.85,3.5
+242,Field and Grain,Mono,536.3885822999999,"['Inyo', 'Tuolumne', 'Alpine', 'Fresno', 'Madera']",,,
+243,Field and Grain,Monterey,13562.67207372,"['Kings', 'San Benito', 'Fresno', 'Santa Cruz', 'San Luis Obispo']",Hay Grain,,
+244,Field and Grain,Napa,1303.10175721,"['Sonoma', 'Solano', 'Yolo', 'Lake']",Hay Grain,,
+245,Field and Grain,Nevada,56.825693650000005,"['Sierra', 'Placer', 'Yuba']",,,
+246,Field and Grain,Orange,808.4191513,"['Los Angeles', 'San Diego', 'San Bernardino', 'Riverside']",,,
+247,Field and Grain,Placer,4880.51473797,"['Sacramento', 'El Dorado', 'Yuba', 'Nevada', 'Sutter']",,,
+248,Field and Grain,Plumas,2249.3505571,"['Sierra', 'Lassen', 'Shasta', 'Yuba', 'Tehama', 'Butte']",,,
+249,Field and Grain,Riverside,20055.39268025,"['San Diego', 'San Bernardino', 'Orange', 'Imperial']",Hay Other Unspecified,206.53,8.01
+250,Field and Grain,Sacramento,25209.35862888,"['Placer', 'Solano', 'Contra Costa', 'El Dorado', 'Yolo', 'San Joaquin', 'Sutter', 'Amador']",Wheat All,208.13,3.1
+251,Field and Grain,San Benito,8995.27104817,"['Monterey', 'Fresno', 'Santa Clara', 'Merced', 'Santa Cruz']",Hay Grain,224.56,2.5
+252,Field and Grain,San Bernardino,1544.08986939,"['Los Angeles', 'Inyo', 'Riverside', 'Kern', 'Orange']",Hay Sudan,200.13,9.97
+253,Field and Grain,San Diego,1307.38039149,"['Riverside', 'Orange', 'Imperial']",Hay Grain,139.13,1.99
+254,Field and Grain,San Joaquin,28027.24891789,"['Sacramento', 'Calaveras', 'Contra Costa', 'Alameda', 'Stanislaus', 'Amador']",,,
+255,Field and Grain,San Luis Obispo,20537.31868189,"['Santa Barbara', 'Kings', 'Monterey', 'Kern']",Hay Grain,185.62,2.26
+256,Field and Grain,San Mateo,1545.98285554,"['San Francisco', 'Santa Clara', 'Alameda', 'Santa Cruz']",Hay Grain,192.47,2.0
+257,Field and Grain,Santa Barbara,7516.57498381,"['Ventura', 'Kern', 'San Luis Obispo']",Hay Grain,,
+258,Field and Grain,Santa Clara,4441.63726405,"['San Benito', 'Alameda', 'Merced', 'Stanislaus', 'San Mateo', 'Santa Cruz']",Hay Grain,134.05,2.0
+259,Field and Grain,Santa Cruz,1142.43275966,"['Monterey', 'San Benito', 'Santa Clara', 'San Mateo']",,,
+260,Field and Grain,Shasta,5334.92100735,"['Lassen', 'Trinity', 'Modoc', 'Tehama', 'Plumas', 'Siskiyou']",,,
+261,Field and Grain,Sierra,698.28828922,"['Lassen', 'Yuba', 'Nevada', 'Plumas']",,,
+262,Field and Grain,Siskiyou,35281.51523697,"['Shasta', 'Trinity', 'Humboldt', 'Del Norte', 'Modoc']",Wheat All,220.22,3.32
+263,Field and Grain,Solano,30120.73019331,"['Sacramento', 'Sonoma', 'Marin', 'Napa', 'Contra Costa', 'Yolo']",Wheat All,158.99,2.84
+264,Field and Grain,Sonoma,19927.02456832,"['Marin', 'Napa', 'Mendocino', 'Solano', 'Contra Costa', 'Lake']",,,
+265,Field and Grain,Stanislaus,11634.87229978,"['Calaveras', 'Mariposa', 'Tuolumne', 'Santa Clara', 'San Joaquin', 'Alameda', 'Merced']",Hay Grain,148.01,2.96
+266,Field and Grain,Sutter,12189.11883975,"['Sacramento', 'Placer', 'Yolo', 'Yuba', 'Colusa', 'Butte']",Wheat All,186.36,2.61
+267,Field and Grain,Tehama,8766.13438379,"['Shasta', 'Trinity', 'Mendocino', 'Butte', 'Plumas', 'Glenn']",Wheat All,179.52,3.18
+268,Field and Grain,Trinity,61.38127301,"['Shasta', 'Mendocino', 'Humboldt', 'Tehama', 'Siskiyou']",,,
+269,Field and Grain,Tulare,44716.01736423,"['Kings', 'Inyo', 'Kern', 'Fresno']",Wheat All,208.01,2.45
+270,Field and Grain,Tuolumne,53.13148707,"['Calaveras', 'Mariposa', 'Mono', 'Alpine', 'Madera', 'Stanislaus']",,,
+271,Field and Grain,Ventura,2961.7316813,"['Santa Barbara', 'Los Angeles', 'Kern']",,,
+272,Field and Grain,Yolo,40704.10809879,"['Sacramento', 'Napa', 'Solano', 'Colusa', 'Sutter', 'Lake']",Wheat All,195.0,2.94
+273,Field and Grain,Yuba,2171.09979667,"['Sierra', 'Placer', 'Nevada', 'Butte', 'Sutter', 'Plumas']",,,
+274,Grapes,Alameda,2836.6225961,"['San Francisco', 'Contra Costa', 'Santa Clara', 'San Joaquin', 'Stanislaus', 'San Mateo']",Grapes Wine,1497.69,5.14
+275,Grapes,Amador,3708.1626066,"['Sacramento', 'Calaveras', 'Alpine', 'El Dorado', 'San Joaquin']",Grapes Wine,1318.31,2.31
+276,Grapes,Butte,201.246893,"['Yuba', 'Colusa', 'Tehama', 'Sutter', 'Plumas', 'Glenn']",,,
+277,Grapes,Calaveras,840.99357368,"['Tuolumne', 'Alpine', 'San Joaquin', 'Stanislaus', 'Amador']",Grapes Wine,1325.99,3.06
+278,Grapes,Colusa,1363.00507251,"['Yolo', 'Butte', 'Sutter', 'Lake', 'Glenn']",Grapes Wine,684.67,6.02
+279,Grapes,Contra Costa,1944.20966558,"['Sacramento', 'Sonoma', 'San Francisco', 'Marin', 'Solano', 'San Joaquin', 'Alameda']",Grapes Wine,,
+280,Grapes,El Dorado,2434.2300036,"['Sacramento', 'Placer', 'Alpine', 'Amador']",Grapes Wine,,
+281,Grapes,Fresno,147940.48532786,"['Kings', 'Monterey', 'Inyo', 'Mono', 'San Benito', 'Madera', 'Merced', 'Tulare']",Grapes Raisin,527.7608588957055,10.389185722253206
+282,Grapes,Glenn,2.48784679,"['Mendocino', 'Colusa', 'Tehama', 'Butte', 'Lake']",,,
+283,Grapes,Humboldt,128.33711704,"['Trinity', 'Mendocino', 'Del Norte', 'Siskiyou']",Grapes Wine,,
+284,Grapes,Imperial,143.63695684,"['San Diego', 'Riverside']",,,
+285,Grapes,Kern,85056.36119027,"['Santa Barbara', 'Ventura', 'Los Angeles', 'Kings', 'Inyo', 'San Bernardino', 'Tulare', 'San Luis Obispo']",Grapes Raisin,1214.6392481203006,12.021879699248121
+286,Grapes,Kings,6035.2016372,"['Monterey', 'Kern', 'Fresno', 'Tulare', 'San Luis Obispo']",Grapes Raisin,408.37527522935784,17.18644167758847
+287,Grapes,Lake,12239.99547956,"['Sonoma', 'Napa', 'Mendocino', 'Yolo', 'Colusa', 'Glenn']",Grapes Wine,1329.37,4.12
+288,Grapes,Los Angeles,323.76762663,"['Ventura', 'San Bernardino', 'Kern', 'Orange']",,,
+289,Grapes,Madera,57576.85363215,"['Mariposa', 'Mono', 'Tuolumne', 'Fresno', 'Merced']",Grapes Wine,364.8869424460432,11.038201438848919
+290,Grapes,Marin,170.16968438,"['Sonoma', 'San Francisco', 'Solano', 'Contra Costa']",Grapes Wine,3607.69,1.33
+291,Grapes,Mariposa,61.79857201,"['Tuolumne', 'Madera', 'Merced', 'Stanislaus']",Grapes Wine,,
+292,Grapes,Mendocino,17408.3441672,"['Sonoma', 'Trinity', 'Humboldt', 'Tehama', 'Lake', 'Glenn']",Grapes Wine,,
+293,Grapes,Merced,13065.67275388,"['Mariposa', 'San Benito', 'Fresno', 'Madera', 'Santa Clara', 'Stanislaus']",Grapes Wine,440.41,10.91
+294,Grapes,Modoc,11.97948202,"['Lassen', 'Shasta', 'Siskiyou']",,,
+295,Grapes,Mono,13.74318799,"['Inyo', 'Tuolumne', 'Alpine', 'Fresno', 'Madera']",,,
+296,Grapes,Monterey,52090.08733853,"['Kings', 'San Benito', 'Fresno', 'Santa Cruz', 'San Luis Obispo']",Grapes Wine,1123.98,2.1
+297,Grapes,Napa,44729.90450622,"['Sonoma', 'Solano', 'Yolo', 'Lake']",Grapes Wine,4646.48,2.2
+298,Grapes,Nevada,447.09622398,"['Sierra', 'Placer', 'Yuba']",Grapes Wine,,
+299,Grapes,Placer,270.87501266,"['Sacramento', 'El Dorado', 'Yuba', 'Nevada', 'Sutter']",Grapes Wine,2235.49,2.79
+300,Grapes,Riverside,8812.12652261,"['San Diego', 'San Bernardino', 'Orange', 'Imperial']",Grapes Table,2459.6024627875504,6.03190798376184
+301,Grapes,Sacramento,36667.75441114,"['Placer', 'Solano', 'Contra Costa', 'El Dorado', 'Yolo', 'San Joaquin', 'Sutter', 'Amador']",Grapes Wine,528.73,8.19
+302,Grapes,San Benito,4502.78303152,"['Monterey', 'Fresno', 'Santa Clara', 'Merced', 'Santa Cruz']",Grapes Wine,,
+303,Grapes,San Bernardino,451.84931368,"['Los Angeles', 'Inyo', 'Riverside', 'Kern', 'Orange']",Grapes Wine,1938.33,0.61
+304,Grapes,San Diego,893.41164338,"['Riverside', 'Orange', 'Imperial']",Grapes Wine,1695.77,2.24
+305,Grapes,San Joaquin,84121.52078842,"['Sacramento', 'Calaveras', 'Contra Costa', 'Alameda', 'Stanislaus', 'Amador']",Grapes Wine,,
+306,Grapes,San Luis Obispo,45785.43035717,"['Santa Barbara', 'Kings', 'Monterey', 'Kern']",Grapes Wine,1640.89,3.04
+307,Grapes,San Mateo,158.75956924,"['San Francisco', 'Santa Clara', 'Alameda', 'Santa Cruz']",Grapes Wine,,
+308,Grapes,Santa Barbara,22545.19644214,"['Ventura', 'Kern', 'San Luis Obispo']",Grapes Wine,2192.43,2.97
+309,Grapes,Santa Clara,1572.1774295,"['San Benito', 'Alameda', 'Merced', 'Stanislaus', 'San Mateo', 'Santa Cruz']",Grapes Wine,1983.77,3.49
+310,Grapes,Santa Cruz,590.88771882,"['Monterey', 'San Benito', 'Santa Clara', 'San Mateo']",Grapes Wine,3008.75,2.39
+311,Grapes,Shasta,146.44245426999998,"['Lassen', 'Trinity', 'Modoc', 'Tehama', 'Plumas', 'Siskiyou']",Grapes Wine,1000.0,2.5
+312,Grapes,Siskiyou,3.75211621,"['Shasta', 'Trinity', 'Humboldt', 'Del Norte', 'Modoc']",,,
+313,Grapes,Solano,5196.45701647,"['Sacramento', 'Sonoma', 'Marin', 'Napa', 'Contra Costa', 'Yolo']",Grapes Wine,945.94,5.6
+314,Grapes,Sonoma,61842.41286431,"['Marin', 'Napa', 'Mendocino', 'Solano', 'Contra Costa', 'Lake']",Grapes Wine,2375.08,2.61
+315,Grapes,Stanislaus,7655.69880782,"['Calaveras', 'Mariposa', 'Tuolumne', 'Santa Clara', 'San Joaquin', 'Alameda', 'Merced']",Grapes Wine,,
+316,Grapes,Sutter,101.48525206,"['Sacramento', 'Placer', 'Yolo', 'Yuba', 'Colusa', 'Butte']",,,
+317,Grapes,Tehama,260.73517648,"['Shasta', 'Trinity', 'Mendocino', 'Butte', 'Plumas', 'Glenn']",Grapes Wine,1804.79,4.23
+318,Grapes,Trinity,128.65967224,"['Shasta', 'Mendocino', 'Humboldt', 'Tehama', 'Siskiyou']",Grapes Wine,,
+319,Grapes,Tulare,43485.96416983,"['Kings', 'Inyo', 'Kern', 'Fresno']",Grapes Raisin,1325.9918386346005,10.523262218774244
+320,Grapes,Tuolumne,51.8432861,"['Calaveras', 'Mariposa', 'Mono', 'Alpine', 'Madera', 'Stanislaus']",,,
+321,Grapes,Ventura,88.89657233,"['Santa Barbara', 'Los Angeles', 'Kern']",,,
+322,Grapes,Yolo,19923.8575478,"['Sacramento', 'Napa', 'Solano', 'Colusa', 'Sutter', 'Lake']",Grapes Wine,699.67,7.81
+323,Grapes,Yuba,259.34873534,"['Sierra', 'Placer', 'Nevada', 'Butte', 'Sutter', 'Plumas']",,,
+324,Lettuce,Fresno,8436.01758306,"['Kings', 'Monterey', 'Inyo', 'Mono', 'San Benito', 'Madera', 'Merced', 'Tulare']",Lettuce Head,595.92,18.24
+325,Lettuce,Imperial,38756.21758907,"['San Diego', 'Riverside']",Lettuce Romaine,520.39,14.69
+326,Lettuce,Kern,5464.05871242,"['Santa Barbara', 'Ventura', 'Los Angeles', 'Kings', 'Inyo', 'San Bernardino', 'Tulare', 'San Luis Obispo']",,,
+327,Lettuce,Kings,124.70182158,"['Monterey', 'Kern', 'Fresno', 'Tulare', 'San Luis Obispo']",,,
+328,Lettuce,Merced,893.93072998,"['Mariposa', 'San Benito', 'Fresno', 'Madera', 'Santa Clara', 'Stanislaus']",,,
+329,Lettuce,Modoc,141.66010518000002,"['Lassen', 'Shasta', 'Siskiyou']",Lettuce Unspecified,3517.05,4.19
+330,Lettuce,Monterey,112118.50555027,"['Kings', 'San Benito', 'Fresno', 'Santa Cruz', 'San Luis Obispo']",Lettuce Head,454.97,24.15
+331,Lettuce,Riverside,6352.58611111,"['San Diego', 'San Bernardino', 'Orange', 'Imperial']",Lettuce Romaine,590.95,13.11
+332,Lettuce,San Benito,13131.87271543,"['Monterey', 'Fresno', 'Santa Clara', 'Merced', 'Santa Cruz']",Lettuce Head,332.62,17.22
+333,Lettuce,San Bernardino,100.53367343,"['Los Angeles', 'Inyo', 'Riverside', 'Kern', 'Orange']",Lettuce Unspecified,647.57,13.4
+334,Lettuce,San Diego,158.12768965,"['Riverside', 'Orange', 'Imperial']",,,
+335,Lettuce,San Joaquin,99.02341852,"['Sacramento', 'Calaveras', 'Contra Costa', 'Alameda', 'Stanislaus', 'Amador']",,,
+336,Lettuce,San Luis Obispo,8450.34937785,"['Santa Barbara', 'Kings', 'Monterey', 'Kern']",Lettuce Head,384.23,19.49
+337,Lettuce,San Mateo,654.84860647,"['San Francisco', 'Santa Clara', 'Alameda', 'Santa Cruz']",,,
+338,Lettuce,Santa Barbara,25790.50536853,"['Ventura', 'Kern', 'San Luis Obispo']",Lettuce Head,,
+339,Lettuce,Santa Clara,2469.47654482,"['San Benito', 'Alameda', 'Merced', 'Stanislaus', 'San Mateo', 'Santa Cruz']",Lettuce Unspecified,666.22,9.29
+340,Lettuce,Santa Cruz,3539.64793602,"['Monterey', 'San Benito', 'Santa Clara', 'San Mateo']",Lettuce Head,335.41,22.05
+341,Lettuce,Siskiyou,332.55757549,"['Shasta', 'Trinity', 'Humboldt', 'Del Norte', 'Modoc']",,,
+342,Lettuce,Stanislaus,541.70476029,"['Calaveras', 'Mariposa', 'Tuolumne', 'Santa Clara', 'San Joaquin', 'Alameda', 'Merced']",,,
+343,Lettuce,Tulare,249.04666648,"['Kings', 'Inyo', 'Kern', 'Fresno']",,,
+344,Lettuce,Ventura,3614.66266056,"['Santa Barbara', 'Los Angeles', 'Kern']",Lettuce Romaine,194.49,17.98
+345,Onions and Garlic,Colusa,139.159539,"['Yolo', 'Butte', 'Sutter', 'Lake', 'Glenn']",,,
+346,Onions and Garlic,Contra Costa,178.98220225,"['Sacramento', 'Sonoma', 'San Francisco', 'Marin', 'Solano', 'San Joaquin', 'Alameda']",,,
+347,Onions and Garlic,Fresno,26572.2052587,"['Kings', 'Monterey', 'Inyo', 'Mono', 'San Benito', 'Madera', 'Merced', 'Tulare']",Garlic All,2227.0,7.21
+348,Onions and Garlic,Glenn,37.05334943,"['Mendocino', 'Colusa', 'Tehama', 'Butte', 'Lake']",,,
+349,Onions and Garlic,Imperial,11148.09773861,"['San Diego', 'Riverside']",Onions,171.4,27.76
+350,Onions and Garlic,Kern,8044.36824123,"['Santa Barbara', 'Ventura', 'Los Angeles', 'Kings', 'Inyo', 'San Bernardino', 'Tulare', 'San Luis Obispo']",Garlic All,2724.39,6.79
+351,Onions and Garlic,Kings,5704.28102613,"['Monterey', 'Kern', 'Fresno', 'Tulare', 'San Luis Obispo']",,,
+352,Onions and Garlic,Los Angeles,491.16996049,"['Ventura', 'San Bernardino', 'Kern', 'Orange']",,,
+353,Onions and Garlic,Madera,245.20986372,"['Mariposa', 'Mono', 'Tuolumne', 'Fresno', 'Merced']",,,
+354,Onions and Garlic,Merced,1277.14719713,"['Mariposa', 'San Benito', 'Fresno', 'Madera', 'Santa Clara', 'Stanislaus']",,,
+355,Onions and Garlic,Modoc,1292.53354579,"['Lassen', 'Shasta', 'Siskiyou']",Onions,164.93,23.76
+356,Onions and Garlic,Monterey,1785.12383395,"['Kings', 'San Benito', 'Fresno', 'Santa Cruz', 'San Luis Obispo']",Onions,555.0,27.93
+357,Onions and Garlic,Riverside,3273.90524493,"['San Diego', 'San Bernardino', 'Orange', 'Imperial']",Onions,200.98,18.07
+358,Onions and Garlic,Sacramento,394.03031316,"['Placer', 'Solano', 'Contra Costa', 'El Dorado', 'Yolo', 'San Joaquin', 'Sutter', 'Amador']",,,
+359,Onions and Garlic,San Benito,653.14438065,"['Monterey', 'Fresno', 'Santa Clara', 'Merced', 'Santa Cruz']",,,
+360,Onions and Garlic,San Joaquin,2888.4949314,"['Sacramento', 'Calaveras', 'Contra Costa', 'Alameda', 'Stanislaus', 'Amador']",Garlic All,668.5,4.6
+361,Onions and Garlic,San Luis Obispo,330.09831188,"['Santa Barbara', 'Kings', 'Monterey', 'Kern']",,,
+362,Onions and Garlic,Santa Barbara,154.41518111,"['Ventura', 'Kern', 'San Luis Obispo']",,,
+363,Onions and Garlic,Santa Clara,215.13442631,"['San Benito', 'Alameda', 'Merced', 'Stanislaus', 'San Mateo', 'Santa Cruz']",Garlic All,1294.76,5.51
+364,Onions and Garlic,Shasta,38.25808339,"['Lassen', 'Trinity', 'Modoc', 'Tehama', 'Plumas', 'Siskiyou']",,,
+365,Onions and Garlic,Siskiyou,1308.11137263,"['Shasta', 'Trinity', 'Humboldt', 'Del Norte', 'Modoc']",Onions,174.97,28.75
+366,Onions and Garlic,Solano,14.5474342,"['Sacramento', 'Sonoma', 'Marin', 'Napa', 'Contra Costa', 'Yolo']",,,
+367,Onions and Garlic,Stanislaus,529.78788708,"['Calaveras', 'Mariposa', 'Tuolumne', 'Santa Clara', 'San Joaquin', 'Alameda', 'Merced']",,,
+368,Onions and Garlic,Sutter,104.46365349,"['Sacramento', 'Placer', 'Yolo', 'Yuba', 'Colusa', 'Butte']",,,
+369,Onions and Garlic,Tulare,14.63609559,"['Kings', 'Inyo', 'Kern', 'Fresno']",,,
+370,Onions and Garlic,Ventura,56.59460927,"['Santa Barbara', 'Los Angeles', 'Kern']",Onions,,
+371,Onions and Garlic,Yolo,261.98950946,"['Sacramento', 'Napa', 'Solano', 'Colusa', 'Sutter', 'Lake']",,,
+372,Orchards,Alameda,3.8278031,"['San Francisco', 'Contra Costa', 'Santa Clara', 'San Joaquin', 'Stanislaus', 'San Mateo']",,,
+373,Orchards,Alpine,2.03478733,"['Calaveras', 'Mono', 'Tuolumne', 'El Dorado', 'Amador']",,,
+374,Orchards,Amador,5.47699316,"['Sacramento', 'Calaveras', 'Alpine', 'El Dorado', 'San Joaquin']",,,
+375,Orchards,Butte,9958.20184615,"['Yuba', 'Colusa', 'Tehama', 'Sutter', 'Plumas', 'Glenn']",Plums Dried (Prunes),1703.55,2.3
+376,Orchards,Calaveras,41.99360609,"['Tuolumne', 'Alpine', 'San Joaquin', 'Stanislaus', 'Amador']",,,
+377,Orchards,Colusa,1463.61479496,"['Yolo', 'Butte', 'Sutter', 'Lake', 'Glenn']",Plums Dried (Prunes),1769.17,2.07
+378,Orchards,Contra Costa,1504.36259358,"['Sacramento', 'Sonoma', 'San Francisco', 'Marin', 'Solano', 'San Joaquin', 'Alameda']",Cherries Sweet,3589.38,1.94
+379,Orchards,Del Norte,1.07380461,"['Humboldt', 'Siskiyou']",,,
+380,Orchards,El Dorado,639.03435946,"['Sacramento', 'Placer', 'Alpine', 'Amador']",,,
+381,Orchards,Fresno,46070.713204,"['Kings', 'Monterey', 'Inyo', 'Mono', 'San Benito', 'Madera', 'Merced', 'Tulare']",Nectarines,1579.0,9.52
+382,Orchards,Glenn,4062.00937718,"['Mendocino', 'Colusa', 'Tehama', 'Butte', 'Lake']",Plums Dried (Prunes),1775.48,2.01
+383,Orchards,Humboldt,66.79669325,"['Trinity', 'Mendocino', 'Del Norte', 'Siskiyou']",Apples All,,
+384,Orchards,Imperial,2314.18244649,"['San Diego', 'Riverside']",,,
+385,Orchards,Inyo,27.53441111,"['Mono', 'San Bernardino', 'Kern', 'Fresno', 'Tulare']",,,
+386,Orchards,Kern,15756.44424346,"['Santa Barbara', 'Ventura', 'Los Angeles', 'Kings', 'Inyo', 'San Bernardino', 'Tulare', 'San Luis Obispo']",Nectarines,,
+387,Orchards,Kings,12227.1365315,"['Monterey', 'Kern', 'Fresno', 'Tulare', 'San Luis Obispo']",Nectarines,1413.31,11.18
+388,Orchards,Lake,1686.20061002,"['Sonoma', 'Napa', 'Mendocino', 'Yolo', 'Colusa', 'Glenn']",,,
+389,Orchards,Los Angeles,432.35742417,"['Ventura', 'San Bernardino', 'Kern', 'Orange']",,,
+390,Orchards,Madera,10571.71539945,"['Mariposa', 'Mono', 'Tuolumne', 'Fresno', 'Merced']",Cherries Sweet,4848.54,2.4
+391,Orchards,Marin,1.44111629,"['Sonoma', 'San Francisco', 'Solano', 'Contra Costa']",,,
+392,Orchards,Mariposa,13.43535802,"['Tuolumne', 'Madera', 'Merced', 'Stanislaus']",,,
+393,Orchards,Mendocino,1415.06649,"['Sonoma', 'Trinity', 'Humboldt', 'Tehama', 'Lake', 'Glenn']",Apples All,778.35,0.9
+394,Orchards,Merced,7060.05619036,"['Mariposa', 'San Benito', 'Fresno', 'Madera', 'Santa Clara', 'Stanislaus']",,,
+395,Orchards,Modoc,23.52404065,"['Lassen', 'Shasta', 'Siskiyou']",,,
+396,Orchards,Monterey,272.60706616,"['Kings', 'San Benito', 'Fresno', 'Santa Cruz', 'San Luis Obispo']",,,
+397,Orchards,Napa,27.49307739,"['Sonoma', 'Solano', 'Yolo', 'Lake']",,,
+398,Orchards,Nevada,47.04601991,"['Sierra', 'Placer', 'Yuba']",,,
+399,Orchards,Orange,1099.86649742,"['Los Angeles', 'San Diego', 'San Bernardino', 'Riverside']",,,
+400,Orchards,Placer,358.84140039,"['Sacramento', 'El Dorado', 'Yuba', 'Nevada', 'Sutter']",Plums Dried (Prunes),,
+401,Orchards,Plumas,9.32000796,"['Sierra', 'Lassen', 'Shasta', 'Yuba', 'Tehama', 'Butte']",,,
+402,Orchards,Riverside,16278.9656162,"['San Diego', 'San Bernardino', 'Orange', 'Imperial']",Peaches Unspecified,6765.63,2.29
+403,Orchards,Sacramento,6623.45004644,"['Placer', 'Solano', 'Contra Costa', 'El Dorado', 'Yolo', 'San Joaquin', 'Sutter', 'Amador']",,,
+404,Orchards,San Benito,1012.51606011,"['Monterey', 'Fresno', 'Santa Clara', 'Merced', 'Santa Cruz']",Apples All,279.91,13.45
+405,Orchards,San Bernardino,1145.16343856,"['Los Angeles', 'Inyo', 'Riverside', 'Kern', 'Orange']",Apples All,4739.03,1.7
+406,Orchards,San Diego,16576.85159402,"['Riverside', 'Orange', 'Imperial']",Apples All,2166.01,1.71
+407,Orchards,San Joaquin,22201.81940899,"['Sacramento', 'Calaveras', 'Contra Costa', 'Alameda', 'Stanislaus', 'Amador']",Cherries Sweet,3277.89,2.86
+408,Orchards,San Luis Obispo,4336.99517783,"['Santa Barbara', 'Kings', 'Monterey', 'Kern']",,,
+409,Orchards,San Mateo,31.29063625,"['San Francisco', 'Santa Clara', 'Alameda', 'Santa Cruz']",,,
+410,Orchards,Santa Barbara,6872.30153909,"['Ventura', 'Kern', 'San Luis Obispo']",,,
+411,Orchards,Santa Clara,1700.93344752,"['San Benito', 'Alameda', 'Merced', 'Stanislaus', 'San Mateo', 'Santa Cruz']",Cherries Sweet,2243.12,2.9
+412,Orchards,Santa Cruz,1994.99284198,"['Monterey', 'San Benito', 'Santa Clara', 'San Mateo']",Apples All,348.6,15.52
+413,Orchards,Shasta,111.80264111,"['Lassen', 'Trinity', 'Modoc', 'Tehama', 'Plumas', 'Siskiyou']",,,
+414,Orchards,Siskiyou,50.68077249,"['Shasta', 'Trinity', 'Humboldt', 'Del Norte', 'Modoc']",Apples All,,
+415,Orchards,Solano,2375.62189886,"['Sacramento', 'Sonoma', 'Marin', 'Napa', 'Contra Costa', 'Yolo']",Plums Dried (Prunes),1369.78,2.15
+416,Orchards,Sonoma,1826.94532212,"['Marin', 'Napa', 'Mendocino', 'Solano', 'Contra Costa', 'Lake']",Apples All,472.66,3.79
+417,Orchards,Stanislaus,9264.3135744,"['Calaveras', 'Mariposa', 'Tuolumne', 'Santa Clara', 'San Joaquin', 'Alameda', 'Merced']",Cherries Sweet,3789.99,2.4
+418,Orchards,Sutter,22425.13358032,"['Sacramento', 'Placer', 'Yolo', 'Yuba', 'Colusa', 'Butte']",Plums Dried (Prunes),1705.68,1.16
+419,Orchards,Tehama,6094.21706139,"['Shasta', 'Trinity', 'Mendocino', 'Butte', 'Plumas', 'Glenn']",Plums Dried (Prunes),1693.97,1.64
+420,Orchards,Trinity,8.60216633,"['Shasta', 'Mendocino', 'Humboldt', 'Tehama', 'Siskiyou']",,,
+421,Orchards,Tulare,36554.40561,"['Kings', 'Inyo', 'Kern', 'Fresno']",Nectarines,1300.0,7.08
+422,Orchards,Tuolumne,158.91330923,"['Calaveras', 'Mariposa', 'Mono', 'Alpine', 'Madera', 'Stanislaus']",,,
+423,Orchards,Ventura,20485.61182516,"['Santa Barbara', 'Los Angeles', 'Kern']",,,
+424,Orchards,Yolo,3258.8474959,"['Sacramento', 'Napa', 'Solano', 'Colusa', 'Sutter', 'Lake']",Plums Dried (Prunes),1750.0,2.13
+425,Orchards,Yuba,10209.19771764,"['Sierra', 'Placer', 'Nevada', 'Butte', 'Sutter', 'Plumas']",Plums Dried (Prunes),1867.52,1.7
+426,Pistachios,Alameda,118.26135593,"['San Francisco', 'Contra Costa', 'Santa Clara', 'San Joaquin', 'Stanislaus', 'San Mateo']",,,
+427,Pistachios,Butte,777.44513694,"['Yuba', 'Colusa', 'Tehama', 'Sutter', 'Plumas', 'Glenn']",Pistachios,4216.5,1.34
+428,Pistachios,Calaveras,22.2945387,"['Tuolumne', 'Alpine', 'San Joaquin', 'Stanislaus', 'Amador']",,,
+429,Pistachios,Colusa,2947.05839335,"['Yolo', 'Butte', 'Sutter', 'Lake', 'Glenn']",,,
+430,Pistachios,Contra Costa,35.57352475,"['Sacramento', 'Sonoma', 'San Francisco', 'Marin', 'Solano', 'San Joaquin', 'Alameda']",,,
+431,Pistachios,Fresno,141561.38009789,"['Kings', 'Monterey', 'Inyo', 'Mono', 'San Benito', 'Madera', 'Merced', 'Tulare']",Pistachios,4027.0,1.43
+432,Pistachios,Glenn,2073.22139863,"['Mendocino', 'Colusa', 'Tehama', 'Butte', 'Lake']",Pistachios,4154.65,0.84
+433,Pistachios,Kern,145653.0857913,"['Santa Barbara', 'Ventura', 'Los Angeles', 'Kings', 'Inyo', 'San Bernardino', 'Tulare', 'San Luis Obispo']",Pistachios,4607.52,1.44
+434,Pistachios,Kings,50589.94860307,"['Monterey', 'Kern', 'Fresno', 'Tulare', 'San Luis Obispo']",Pistachios,3971.24,1.64
+435,Pistachios,Los Angeles,22.54432163,"['Ventura', 'San Bernardino', 'Kern', 'Orange']",,,
+436,Pistachios,Madera,53563.1859198,"['Mariposa', 'Mono', 'Tuolumne', 'Fresno', 'Merced']",Pistachios,4191.03,1.43
+437,Pistachios,Merced,18256.15588456,"['Mariposa', 'San Benito', 'Fresno', 'Madera', 'Santa Clara', 'Stanislaus']",Pistachios,4323.84,0.93
+438,Pistachios,Placer,21.1193196,"['Sacramento', 'El Dorado', 'Yuba', 'Nevada', 'Sutter']",,,
+439,Pistachios,Sacramento,380.40494555,"['Placer', 'Solano', 'Contra Costa', 'El Dorado', 'Yolo', 'San Joaquin', 'Sutter', 'Amador']",,,
+440,Pistachios,San Bernardino,965.74050359,"['Los Angeles', 'Inyo', 'Riverside', 'Kern', 'Orange']",Pistachios,7224.49,0.14
+441,Pistachios,San Joaquin,366.71174649,"['Sacramento', 'Calaveras', 'Contra Costa', 'Alameda', 'Stanislaus', 'Amador']",Pistachios,4200.0,1.04
+442,Pistachios,San Luis Obispo,530.6616890399999,"['Santa Barbara', 'Kings', 'Monterey', 'Kern']",,,
+443,Pistachios,Santa Barbara,744.53025209,"['Ventura', 'Kern', 'San Luis Obispo']",,,
+444,Pistachios,Solano,402.70771862,"['Sacramento', 'Sonoma', 'Marin', 'Napa', 'Contra Costa', 'Yolo']",,,
+445,Pistachios,Stanislaus,1267.90001711,"['Calaveras', 'Mariposa', 'Tuolumne', 'Santa Clara', 'San Joaquin', 'Alameda', 'Merced']",Pistachios,,
+446,Pistachios,Sutter,128.04811647,"['Sacramento', 'Placer', 'Yolo', 'Yuba', 'Colusa', 'Butte']",,,
+447,Pistachios,Tehama,632.02933933,"['Shasta', 'Trinity', 'Mendocino', 'Butte', 'Plumas', 'Glenn']",Pistachios,,
+448,Pistachios,Tulare,71481.36632427,"['Kings', 'Inyo', 'Kern', 'Fresno']",Pistachios,4510.0,1.26
+449,Pistachios,Yolo,5630.05952635,"['Sacramento', 'Napa', 'Solano', 'Colusa', 'Sutter', 'Lake']",Pistachios,4510.0,0.63
+450,Pistachios,Yuba,3.39294085,"['Sierra', 'Placer', 'Nevada', 'Butte', 'Sutter', 'Plumas']",,,
+451,Potatoes,Fresno,217.89360903,"['Kings', 'Monterey', 'Inyo', 'Mono', 'San Benito', 'Madera', 'Merced', 'Tulare']",,,
+452,Potatoes,Imperial,724.33651533,"['San Diego', 'Riverside']",Potatoes All,,
+453,Potatoes,Kern,18679.28051606,"['Santa Barbara', 'Ventura', 'Los Angeles', 'Kings', 'Inyo', 'San Bernardino', 'Tulare', 'San Luis Obispo']",Potatoes All,364.92,23.48
+454,Potatoes,Los Angeles,1830.79259641,"['Ventura', 'San Bernardino', 'Kern', 'Orange']",,,
+455,Potatoes,Merced,15201.59771652,"['Mariposa', 'San Benito', 'Fresno', 'Madera', 'Santa Clara', 'Stanislaus']",Potatoes Sweet,1026.22,15.56
+456,Potatoes,Modoc,2798.6445788,"['Lassen', 'Shasta', 'Siskiyou']",Potatoes All,172.9,23.74
+457,Potatoes,Riverside,337.18186687,"['San Diego', 'San Bernardino', 'Orange', 'Imperial']",Potatoes All,263.27,17.03
+458,Potatoes,Sacramento,218.72303972,"['Placer', 'Solano', 'Contra Costa', 'El Dorado', 'Yolo', 'San Joaquin', 'Sutter', 'Amador']",,,
+459,Potatoes,San Joaquin,1720.48975815,"['Sacramento', 'Calaveras', 'Contra Costa', 'Alameda', 'Stanislaus', 'Amador']",,,
+460,Potatoes,San Luis Obispo,532.7921137200001,"['Santa Barbara', 'Kings', 'Monterey', 'Kern']",,,
+461,Potatoes,Santa Barbara,249.17888138,"['Ventura', 'Kern', 'San Luis Obispo']",,,
+462,Potatoes,Siskiyou,3743.61698273,"['Shasta', 'Trinity', 'Humboldt', 'Del Norte', 'Modoc']",Potatoes All,178.7,22.87
+463,Potatoes,Stanislaus,1848.24716899,"['Calaveras', 'Mariposa', 'Tuolumne', 'Santa Clara', 'San Joaquin', 'Alameda', 'Merced']",Potatoes Sweet,540.0,18.21
+464,Potatoes,Tulare,398.44541849,"['Kings', 'Inyo', 'Kern', 'Fresno']",,,
+465,Rice,Butte,100258.82222584,"['Yuba', 'Colusa', 'Tehama', 'Sutter', 'Plumas', 'Glenn']",Rice Milling,420.42,4.4
+466,Rice,Colusa,124782.48295441,"['Yolo', 'Butte', 'Sutter', 'Lake', 'Glenn']",Rice Milling,431.78,5.26
+467,Rice,Fresno,1708.25876676,"['Kings', 'Monterey', 'Inyo', 'Mono', 'San Benito', 'Madera', 'Merced', 'Tulare']",,,
+468,Rice,Glenn,77153.95451393,"['Mendocino', 'Colusa', 'Tehama', 'Butte', 'Lake']",Rice Milling,383.14,4.86
+469,Rice,Lake,311.61359868,"['Sonoma', 'Napa', 'Mendocino', 'Yolo', 'Colusa', 'Glenn']",,,
+470,Rice,Lassen,1612.28911093,"['Sierra', 'Shasta', 'Modoc', 'Plumas']",,,
+471,Rice,Merced,1462.32010544,"['Mariposa', 'San Benito', 'Fresno', 'Madera', 'Santa Clara', 'Stanislaus']",,,
+472,Rice,Modoc,2348.14732085,"['Lassen', 'Shasta', 'Siskiyou']",,,
+473,Rice,Placer,12340.31508069,"['Sacramento', 'El Dorado', 'Yuba', 'Nevada', 'Sutter']",Rice Milling,390.18,4.59
+474,Rice,Sacramento,8613.96438881,"['Placer', 'Solano', 'Contra Costa', 'El Dorado', 'Yolo', 'San Joaquin', 'Sutter', 'Amador']",Rice Milling,394.07,4.4
+475,Rice,San Joaquin,4199.98349388,"['Sacramento', 'Calaveras', 'Contra Costa', 'Alameda', 'Stanislaus', 'Amador']",Rice Milling,400.41,4.39
+476,Rice,Shasta,4987.20971867,"['Lassen', 'Trinity', 'Modoc', 'Tehama', 'Plumas', 'Siskiyou']",,,
+477,Rice,Stanislaus,392.68813188,"['Calaveras', 'Mariposa', 'Tuolumne', 'Santa Clara', 'San Joaquin', 'Alameda', 'Merced']",,,
+478,Rice,Sutter,109958.33477191,"['Sacramento', 'Placer', 'Yolo', 'Yuba', 'Colusa', 'Butte']",Rice Milling,413.32,4.19
+479,Rice,Tehama,212.31811717,"['Shasta', 'Trinity', 'Mendocino', 'Butte', 'Plumas', 'Glenn']",,,
+480,Rice,Yolo,36389.62068565,"['Sacramento', 'Napa', 'Solano', 'Colusa', 'Sutter', 'Lake']",Rice Milling,431.0,4.16
+481,Rice,Yuba,36989.14137399,"['Sierra', 'Placer', 'Nevada', 'Butte', 'Sutter', 'Plumas']",Rice Milling,461.14,4.29
+482,Safflower,Butte,173.33008581,"['Yuba', 'Colusa', 'Tehama', 'Sutter', 'Plumas', 'Glenn']",,,
+483,Safflower,Colusa,804.58480681,"['Yolo', 'Butte', 'Sutter', 'Lake', 'Glenn']",Safflower,414.01,0.6
+484,Safflower,Contra Costa,681.5441385500001,"['Sacramento', 'Sonoma', 'San Francisco', 'Marin', 'Solano', 'San Joaquin', 'Alameda']",,,
+485,Safflower,Fresno,145.83005061,"['Kings', 'Monterey', 'Inyo', 'Mono', 'San Benito', 'Madera', 'Merced', 'Tulare']",,,
+486,Safflower,Glenn,655.90886714,"['Mendocino', 'Colusa', 'Tehama', 'Butte', 'Lake']",,,
+487,Safflower,Imperial,32.80834473,"['San Diego', 'Riverside']",,,
+488,Safflower,Kern,738.84395034,"['Santa Barbara', 'Ventura', 'Los Angeles', 'Kings', 'Inyo', 'San Bernardino', 'Tulare', 'San Luis Obispo']",,,
+489,Safflower,Kings,12379.65608014,"['Monterey', 'Kern', 'Fresno', 'Tulare', 'San Luis Obispo']",,,
+490,Safflower,Riverside,346.51759381,"['San Diego', 'San Bernardino', 'Orange', 'Imperial']",,,
+491,Safflower,Sacramento,2645.77549651,"['Placer', 'Solano', 'Contra Costa', 'El Dorado', 'Yolo', 'San Joaquin', 'Sutter', 'Amador']",Safflower,458.76,1.0
+492,Safflower,San Joaquin,2904.37046507,"['Sacramento', 'Calaveras', 'Contra Costa', 'Alameda', 'Stanislaus', 'Amador']",Safflower,469.79,1.46
+493,Safflower,San Luis Obispo,1738.5914344,"['Santa Barbara', 'Kings', 'Monterey', 'Kern']",,,
+494,Safflower,Solano,2949.65739202,"['Sacramento', 'Sonoma', 'Marin', 'Napa', 'Contra Costa', 'Yolo']",Safflower,449.09,1.16
+495,Safflower,Sutter,2815.60618336,"['Sacramento', 'Placer', 'Yolo', 'Yuba', 'Colusa', 'Butte']",Safflower,438.92,1.0
+496,Safflower,Tehama,407.57623994,"['Shasta', 'Trinity', 'Mendocino', 'Butte', 'Plumas', 'Glenn']",,,
+497,Safflower,Tulare,183.54727915,"['Kings', 'Inyo', 'Kern', 'Fresno']",,,
+498,Safflower,Yolo,7762.79767275,"['Sacramento', 'Napa', 'Solano', 'Colusa', 'Sutter', 'Lake']",Safflower,453.0,1.03
+499,Safflower,Yuba,91.32003134,"['Sierra', 'Placer', 'Nevada', 'Butte', 'Sutter', 'Plumas']",,,
+500,Subtropical,Alameda,176.94580732,"['San Francisco', 'Contra Costa', 'Santa Clara', 'San Joaquin', 'Stanislaus', 'San Mateo']",,,
+501,Subtropical,Amador,31.42464007,"['Sacramento', 'Calaveras', 'Alpine', 'El Dorado', 'San Joaquin']",,,
+502,Subtropical,Butte,4009.12347829,"['Yuba', 'Colusa', 'Tehama', 'Sutter', 'Plumas', 'Glenn']",Olives,761.23,2.99
+503,Subtropical,Calaveras,237.35129294,"['Tuolumne', 'Alpine', 'San Joaquin', 'Stanislaus', 'Amador']",Olives,1325.0,0.1
+504,Subtropical,Colusa,431.34416402,"['Yolo', 'Butte', 'Sutter', 'Lake', 'Glenn']",Olives,747.93,4.12
+505,Subtropical,Contra Costa,189.22259496,"['Sacramento', 'Sonoma', 'San Francisco', 'Marin', 'Solano', 'San Joaquin', 'Alameda']",Olives,1046.48,2.72
+506,Subtropical,El Dorado,52.17106741,"['Sacramento', 'Placer', 'Alpine', 'Amador']",Olives,,
+507,Subtropical,Fresno,52715.51701108,"['Kings', 'Monterey', 'Inyo', 'Mono', 'San Benito', 'Madera', 'Merced', 'Tulare']",Oranges Navel,595.06,17.27
+508,Subtropical,Glenn,8659.59137097,"['Mendocino', 'Colusa', 'Tehama', 'Butte', 'Lake']",Olives,924.79,4.52
+509,Subtropical,Humboldt,0.527154,"['Trinity', 'Mendocino', 'Del Norte', 'Siskiyou']",,,
+510,Subtropical,Imperial,8057.49512488,"['San Diego', 'Riverside']",Lemons All,632.71,17.52
+511,Subtropical,Kern,62945.11711756,"['Santa Barbara', 'Ventura', 'Los Angeles', 'Kings', 'Inyo', 'San Bernardino', 'Tulare', 'San Luis Obispo']",Oranges Navel,788.45,18.63
+512,Subtropical,Kings,1710.27348211,"['Monterey', 'Kern', 'Fresno', 'Tulare', 'San Luis Obispo']",,,
+513,Subtropical,Lake,77.8831014,"['Sonoma', 'Napa', 'Mendocino', 'Yolo', 'Colusa', 'Glenn']",Olives,,
+514,Subtropical,Los Angeles,116.38752973,"['Ventura', 'San Bernardino', 'Kern', 'Orange']",,,
+515,Subtropical,Madera,7560.07923242,"['Mariposa', 'Mono', 'Tuolumne', 'Fresno', 'Merced']",Olives,916.23,2.85
+516,Subtropical,Marin,68.45508869,"['Sonoma', 'San Francisco', 'Solano', 'Contra Costa']",,,
+517,Subtropical,Mariposa,43.46586116,"['Tuolumne', 'Madera', 'Merced', 'Stanislaus']",,,
+518,Subtropical,Mendocino,119.2893349,"['Sonoma', 'Trinity', 'Humboldt', 'Tehama', 'Lake', 'Glenn']",,,
+519,Subtropical,Merced,378.16849381,"['Mariposa', 'San Benito', 'Fresno', 'Madera', 'Santa Clara', 'Stanislaus']",Olives,,
+520,Subtropical,Monterey,1459.84648004,"['Kings', 'San Benito', 'Fresno', 'Santa Cruz', 'San Luis Obispo']",Lemons All,1080.0,25.0
+521,Subtropical,Napa,207.80591526,"['Sonoma', 'Solano', 'Yolo', 'Lake']",Olives,2829.27,0.85
+522,Subtropical,Nevada,3.93680981,"['Sierra', 'Placer', 'Yuba']",,,
+523,Subtropical,Orange,437.08426438,"['Los Angeles', 'San Diego', 'San Bernardino', 'Riverside']",,,
+524,Subtropical,Placer,270.82231692,"['Sacramento', 'El Dorado', 'Yuba', 'Nevada', 'Sutter']",Olives,,
+525,Subtropical,Riverside,16459.10433829,"['San Diego', 'San Bernardino', 'Orange', 'Imperial']",Lemons All,918.98,9.15
+526,Subtropical,Sacramento,1078.58964156,"['Placer', 'Solano', 'Contra Costa', 'El Dorado', 'Yolo', 'San Joaquin', 'Sutter', 'Amador']",,,
+527,Subtropical,San Benito,238.243611,"['Monterey', 'Fresno', 'Santa Clara', 'Merced', 'Santa Cruz']",,,
+528,Subtropical,San Bernardino,2938.55908554,"['Los Angeles', 'Inyo', 'Riverside', 'Kern', 'Orange']",Oranges Navel,1486.38,8.56
+529,Subtropical,San Diego,8667.35905894,"['Riverside', 'Orange', 'Imperial']",Lemons All,1082.32,22.48
+530,Subtropical,San Joaquin,4642.84021298,"['Sacramento', 'Calaveras', 'Contra Costa', 'Alameda', 'Stanislaus', 'Amador']",Olives,795.71,4.72
+531,Subtropical,San Luis Obispo,3626.07949061,"['Santa Barbara', 'Kings', 'Monterey', 'Kern']",Lemons All,583.44,17.14
+532,Subtropical,San Mateo,9.94275414,"['San Francisco', 'Santa Clara', 'Alameda', 'Santa Cruz']",,,
+533,Subtropical,Santa Barbara,2122.05740518,"['Ventura', 'Kern', 'San Luis Obispo']",Lemons All,370.36,16.91
+534,Subtropical,Santa Clara,94.30215563,"['San Benito', 'Alameda', 'Merced', 'Stanislaus', 'San Mateo', 'Santa Cruz']",,,
+535,Subtropical,Santa Cruz,19.11422919,"['Monterey', 'San Benito', 'Santa Clara', 'San Mateo']",,,
+536,Subtropical,Shasta,647.21226525,"['Lassen', 'Trinity', 'Modoc', 'Tehama', 'Plumas', 'Siskiyou']",,,
+537,Subtropical,Solano,351.28752195,"['Sacramento', 'Sonoma', 'Marin', 'Napa', 'Contra Costa', 'Yolo']",Olives,3942.77,1.15
+538,Subtropical,Sonoma,390.14392819,"['Marin', 'Napa', 'Mendocino', 'Solano', 'Contra Costa', 'Lake']",,,
+539,Subtropical,Stanislaus,1296.73015348,"['Calaveras', 'Mariposa', 'Tuolumne', 'Santa Clara', 'San Joaquin', 'Alameda', 'Merced']",Olives,,
+540,Subtropical,Sutter,1089.62884585,"['Sacramento', 'Placer', 'Yolo', 'Yuba', 'Colusa', 'Butte']",Olives,617.28,0.69
+541,Subtropical,Tehama,8787.46328273,"['Shasta', 'Trinity', 'Mendocino', 'Butte', 'Plumas', 'Glenn']",Olives,956.68,2.19
+542,Subtropical,Tulare,135428.89691679,"['Kings', 'Inyo', 'Kern', 'Fresno']",Oranges Navel,526.4,22.09
+543,Subtropical,Tuolumne,6.81922368,"['Calaveras', 'Mariposa', 'Mono', 'Alpine', 'Madera', 'Stanislaus']",,,
+544,Subtropical,Ventura,24373.09220584,"['Santa Barbara', 'Los Angeles', 'Kern']",Lemons All,632.13,20.12
+545,Subtropical,Yolo,4275.8645064,"['Sacramento', 'Napa', 'Solano', 'Colusa', 'Sutter', 'Lake']",Olives,720.0,3.87
+546,Subtropical,Yuba,1656.92061105,"['Sierra', 'Placer', 'Nevada', 'Butte', 'Sutter', 'Plumas']",,,
+547,Sunflowers,Butte,150.71727963,"['Yuba', 'Colusa', 'Tehama', 'Sutter', 'Plumas', 'Glenn']",,,
+548,Sunflowers,Colusa,6597.38588325,"['Yolo', 'Butte', 'Sutter', 'Lake', 'Glenn']",Sunflower Seed Planting,2873.42,0.78
+549,Sunflowers,Glenn,3221.97450195,"['Mendocino', 'Colusa', 'Tehama', 'Butte', 'Lake']",Sunflower Seed Planting,2414.98,0.5
+550,Sunflowers,Imperial,1062.63000945,"['San Diego', 'Riverside']",,,
+551,Sunflowers,Sacramento,127.48558102,"['Placer', 'Solano', 'Contra Costa', 'El Dorado', 'Yolo', 'San Joaquin', 'Sutter', 'Amador']",,,
+552,Sunflowers,San Benito,99.39933485,"['Monterey', 'Fresno', 'Santa Clara', 'Merced', 'Santa Cruz']",,,
+553,Sunflowers,San Joaquin,316.27282796,"['Sacramento', 'Calaveras', 'Contra Costa', 'Alameda', 'Stanislaus', 'Amador']",,,
+554,Sunflowers,Santa Clara,85.06879426,"['San Benito', 'Alameda', 'Merced', 'Stanislaus', 'San Mateo', 'Santa Cruz']",,,
+555,Sunflowers,Solano,6422.25975649,"['Sacramento', 'Sonoma', 'Marin', 'Napa', 'Contra Costa', 'Yolo']",Sunflower Seed Planting,1981.47,0.8
+556,Sunflowers,Sutter,8506.54820814,"['Sacramento', 'Placer', 'Yolo', 'Yuba', 'Colusa', 'Butte']",Sunflower Seed Planting,2558.62,0.63
+557,Sunflowers,Tehama,62.57173374,"['Shasta', 'Trinity', 'Mendocino', 'Butte', 'Plumas', 'Glenn']",,,
+558,Sunflowers,Yolo,18504.15075354,"['Sacramento', 'Napa', 'Solano', 'Colusa', 'Sutter', 'Lake']",Sunflower Seed Planting,,
+559,Sunflowers,Yuba,237.67432311,"['Sierra', 'Placer', 'Nevada', 'Butte', 'Sutter', 'Plumas']",,,
+560,Tomatoes,Butte,557.05519524,"['Yuba', 'Colusa', 'Tehama', 'Sutter', 'Plumas', 'Glenn']",,,
+561,Tomatoes,Colusa,12283.85225158,"['Yolo', 'Butte', 'Sutter', 'Lake', 'Glenn']",Tomatoes Processing,77.04,51.18
+562,Tomatoes,Contra Costa,2763.85586112,"['Sacramento', 'Sonoma', 'San Francisco', 'Marin', 'Solano', 'San Joaquin', 'Alameda']",Tomatoes Unspecified,,
+563,Tomatoes,Fresno,71171.0438353,"['Kings', 'Monterey', 'Inyo', 'Mono', 'San Benito', 'Madera', 'Merced', 'Tulare']",Tomatoes Processing,75.0,52.5
+564,Tomatoes,Glenn,679.90341812,"['Mendocino', 'Colusa', 'Tehama', 'Butte', 'Lake']",Tomatoes Processing,78.0,43.08
+565,Tomatoes,Kern,6903.8084862,"['Santa Barbara', 'Ventura', 'Los Angeles', 'Kings', 'Inyo', 'San Bernardino', 'Tulare', 'San Luis Obispo']",Tomatoes Processing,78.44,57.99
+566,Tomatoes,Kings,26109.35423438,"['Monterey', 'Kern', 'Fresno', 'Tulare', 'San Luis Obispo']",Tomatoes Processing,79.18,53.82
+567,Tomatoes,Madera,3207.24755627,"['Mariposa', 'Mono', 'Tuolumne', 'Fresno', 'Merced']",Tomatoes Processing,76.02,52.35
+568,Tomatoes,Merced,26220.06459881,"['Mariposa', 'San Benito', 'Fresno', 'Madera', 'Santa Clara', 'Stanislaus']",Tomatoes Processing,176.14199463627222,41.337207509218906
+569,Tomatoes,Orange,61.80249876,"['Los Angeles', 'San Diego', 'San Bernardino', 'Riverside']",Tomatoes Unspecified,,
+570,Tomatoes,Riverside,215.46808366,"['San Diego', 'San Bernardino', 'Orange', 'Imperial']",Tomatoes Unspecified,,
+571,Tomatoes,Sacramento,1541.27378053,"['Placer', 'Solano', 'Contra Costa', 'El Dorado', 'Yolo', 'San Joaquin', 'Sutter', 'Amador']",Tomatoes Processing,113.85,27.96
+572,Tomatoes,San Benito,641.20190789,"['Monterey', 'Fresno', 'Santa Clara', 'Merced', 'Santa Cruz']",Tomatoes Fresh Market,,
+573,Tomatoes,San Diego,543.57659331,"['Riverside', 'Orange', 'Imperial']",,,
+574,Tomatoes,San Joaquin,15032.43130774,"['Sacramento', 'Calaveras', 'Contra Costa', 'Alameda', 'Stanislaus', 'Amador']",Tomatoes Processing,91.4380412371134,44.17319587628866
+575,Tomatoes,Santa Barbara,27.49076168,"['Ventura', 'Kern', 'San Luis Obispo']",,,
+576,Tomatoes,Santa Clara,1070.13320399,"['San Benito', 'Alameda', 'Merced', 'Stanislaus', 'San Mateo', 'Santa Cruz']",,452.76958920907424,29.979233599019008
+577,Tomatoes,Solano,9805.50400283,"['Sacramento', 'Sonoma', 'Marin', 'Napa', 'Contra Costa', 'Yolo']",Tomatoes Processing,77.55,50.88
+578,Tomatoes,Stanislaus,6253.530429,"['Calaveras', 'Mariposa', 'Tuolumne', 'Santa Clara', 'San Joaquin', 'Alameda', 'Merced']",,,
+579,Tomatoes,Sutter,11354.87153683,"['Sacramento', 'Placer', 'Yolo', 'Yuba', 'Colusa', 'Butte']",Tomatoes Processing,77.98,51.43
+580,Tomatoes,Tulare,759.26723673,"['Kings', 'Inyo', 'Kern', 'Fresno']",,,
+581,Tomatoes,Ventura,25.24296742,"['Santa Barbara', 'Los Angeles', 'Kern']",Tomatoes Unspecified,,
+582,Tomatoes,Yolo,30615.43908874,"['Sacramento', 'Napa', 'Solano', 'Colusa', 'Sutter', 'Lake']",Tomatoes Processing,77.0,53.91
+583,Truck,Alameda,76.34431430000001,"['San Francisco', 'Contra Costa', 'Santa Clara', 'San Joaquin', 'Stanislaus', 'San Mateo']",,,
+584,Truck,Amador,4.82543776,"['Sacramento', 'Calaveras', 'Alpine', 'El Dorado', 'San Joaquin']",,,
+585,Truck,Butte,218.80837692,"['Yuba', 'Colusa', 'Tehama', 'Sutter', 'Plumas', 'Glenn']",,,
+586,Truck,Calaveras,12.87740824,"['Tuolumne', 'Alpine', 'San Joaquin', 'Stanislaus', 'Amador']",,,
+587,Truck,Colusa,220.77512439,"['Yolo', 'Butte', 'Sutter', 'Lake', 'Glenn']",,,
+588,Truck,Contra Costa,136.54403437,"['Sacramento', 'Sonoma', 'San Francisco', 'Marin', 'Solano', 'San Joaquin', 'Alameda']",,,
+589,Truck,Del Norte,40.35348323,"['Humboldt', 'Siskiyou']",,,
+590,Truck,El Dorado,51.80432541,"['Sacramento', 'Placer', 'Alpine', 'Amador']",,,
+591,Truck,Fresno,13623.28432983,"['Kings', 'Monterey', 'Inyo', 'Mono', 'San Benito', 'Madera', 'Merced', 'Tulare']",Peppers Bell,765.02,18.85
+592,Truck,Glenn,150.51984355,"['Mendocino', 'Colusa', 'Tehama', 'Butte', 'Lake']",,,
+593,Truck,Humboldt,263.67842305,"['Trinity', 'Mendocino', 'Del Norte', 'Siskiyou']",,,
+594,Truck,Imperial,14435.17191528,"['San Diego', 'Riverside']",Broccoli Fresh Market,1867.19,3.92
+595,Truck,Kern,24932.10688251,"['Santa Barbara', 'Ventura', 'Los Angeles', 'Kings', 'Inyo', 'San Bernardino', 'Tulare', 'San Luis Obispo']",Peppers Bell,1894.62,23.97
+596,Truck,Kings,2553.57948285,"['Monterey', 'Kern', 'Fresno', 'Tulare', 'San Luis Obispo']",,,
+597,Truck,Lake,29.63638043,"['Sonoma', 'Napa', 'Mendocino', 'Yolo', 'Colusa', 'Glenn']",,,
+598,Truck,Lassen,17.76064128,"['Sierra', 'Shasta', 'Modoc', 'Plumas']",,,
+599,Truck,Los Angeles,1097.63874677,"['Ventura', 'San Bernardino', 'Kern', 'Orange']",,,
+600,Truck,Madera,320.696243,"['Mariposa', 'Mono', 'Tuolumne', 'Fresno', 'Merced']",,,
+601,Truck,Marin,134.11704712,"['Sonoma', 'San Francisco', 'Solano', 'Contra Costa']",,,
+602,Truck,Mendocino,70.38195947,"['Sonoma', 'Trinity', 'Humboldt', 'Tehama', 'Lake', 'Glenn']",,,
+603,Truck,Merced,3026.08203125,"['Mariposa', 'San Benito', 'Fresno', 'Madera', 'Santa Clara', 'Stanislaus']",,,
+604,Truck,Modoc,16.31842696,"['Lassen', 'Shasta', 'Siskiyou']",Mint,44252.87,0.04
+605,Truck,Monterey,20205.84861032,"['Kings', 'San Benito', 'Fresno', 'Santa Cruz', 'San Luis Obispo']",Broccoli Fresh Market,1220.0,6.85
+606,Truck,Napa,21.99704623,"['Sonoma', 'Solano', 'Yolo', 'Lake']",,,
+607,Truck,Nevada,60.22023149,"['Sierra', 'Placer', 'Yuba']",,,
+608,Truck,Orange,622.07901627,"['Los Angeles', 'San Diego', 'San Bernardino', 'Riverside']",,,
+609,Truck,Placer,118.42375379,"['Sacramento', 'El Dorado', 'Yuba', 'Nevada', 'Sutter']",,,
+610,Truck,Riverside,13298.48584147,"['San Diego', 'San Bernardino', 'Orange', 'Imperial']",,,
+611,Truck,Sacramento,903.54669259,"['Placer', 'Solano', 'Contra Costa', 'El Dorado', 'Yolo', 'San Joaquin', 'Sutter', 'Amador']",,,
+612,Truck,San Benito,5181.97957884,"['Monterey', 'Fresno', 'Santa Clara', 'Merced', 'Santa Cruz']",,,
+613,Truck,San Bernardino,503.04121867,"['Los Angeles', 'Inyo', 'Riverside', 'Kern', 'Orange']",Peppers Bell,1724.36,15.6
+614,Truck,San Diego,308.67726648,"['Riverside', 'Orange', 'Imperial']",Peppers Bell,,
+615,Truck,San Joaquin,2096.85008569,"['Sacramento', 'Calaveras', 'Contra Costa', 'Alameda', 'Stanislaus', 'Amador']",Peppers Bell,512.68,18.65
+616,Truck,San Luis Obispo,6937.26809914,"['Santa Barbara', 'Kings', 'Monterey', 'Kern']",,,
+617,Truck,San Mateo,963.67480038,"['San Francisco', 'Santa Clara', 'Alameda', 'Santa Cruz']",,,
+618,Truck,Santa Barbara,15949.88468208,"['Ventura', 'Kern', 'San Luis Obispo']",,,
+619,Truck,Santa Clara,4250.99063157,"['San Benito', 'Alameda', 'Merced', 'Stanislaus', 'San Mateo', 'Santa Cruz']",Peppers Bell,392.97,36.03
+620,Truck,Santa Cruz,1424.94282163,"['Monterey', 'San Benito', 'Santa Clara', 'San Mateo']",,,
+621,Truck,Shasta,60.85536271,"['Lassen', 'Trinity', 'Modoc', 'Tehama', 'Plumas', 'Siskiyou']",Mint,,
+622,Truck,Siskiyou,279.86421026,"['Shasta', 'Trinity', 'Humboldt', 'Del Norte', 'Modoc']",Mint,45090.91,0.04
+623,Truck,Solano,973.99411781,"['Sacramento', 'Sonoma', 'Marin', 'Napa', 'Contra Costa', 'Yolo']",,,
+624,Truck,Sonoma,799.24716078,"['Marin', 'Napa', 'Mendocino', 'Solano', 'Contra Costa', 'Lake']",,,
+625,Truck,Stanislaus,1389.9491843,"['Calaveras', 'Mariposa', 'Tuolumne', 'Santa Clara', 'San Joaquin', 'Alameda', 'Merced']",,,
+626,Truck,Sutter,408.08205262,"['Sacramento', 'Placer', 'Yolo', 'Yuba', 'Colusa', 'Butte']",,,
+627,Truck,Tehama,69.24772632,"['Shasta', 'Trinity', 'Mendocino', 'Butte', 'Plumas', 'Glenn']",,,
+628,Truck,Trinity,5.75060063,"['Shasta', 'Mendocino', 'Humboldt', 'Tehama', 'Siskiyou']",,,
+629,Truck,Tulare,1427.43914658,"['Kings', 'Inyo', 'Kern', 'Fresno']",,,
+630,Truck,Tuolumne,12.57939847,"['Calaveras', 'Mariposa', 'Mono', 'Alpine', 'Madera', 'Stanislaus']",,,
+631,Truck,Ventura,14602.20259565,"['Santa Barbara', 'Los Angeles', 'Kern']",Peppers Bell,412.06,54.0
+632,Truck,Yolo,4130.33059958,"['Sacramento', 'Napa', 'Solano', 'Colusa', 'Sutter', 'Lake']",,,
+633,Truck,Yuba,129.733582,"['Sierra', 'Placer', 'Nevada', 'Butte', 'Sutter', 'Plumas']",,,
+634,Walnuts,Alameda,39.82636163,"['San Francisco', 'Contra Costa', 'Santa Clara', 'San Joaquin', 'Stanislaus', 'San Mateo']",,,
+635,Walnuts,Amador,460.68174416,"['Sacramento', 'Calaveras', 'Alpine', 'El Dorado', 'San Joaquin']",Walnuts English,1599.06,1.0
+636,Walnuts,Butte,53581.56502505,"['Yuba', 'Colusa', 'Tehama', 'Sutter', 'Plumas', 'Glenn']",Walnuts English,1196.52,2.01
+637,Walnuts,Calaveras,886.83139776,"['Tuolumne', 'Alpine', 'San Joaquin', 'Stanislaus', 'Amador']",Walnuts English,,
+638,Walnuts,Colusa,23803.93626148,"['Yolo', 'Butte', 'Sutter', 'Lake', 'Glenn']",Walnuts English,1290.2,2.55
+639,Walnuts,Contra Costa,673.11158439,"['Sacramento', 'Sonoma', 'San Francisco', 'Marin', 'Solano', 'San Joaquin', 'Alameda']",Walnuts English,1286.11,2.05
+640,Walnuts,El Dorado,198.03744366,"['Sacramento', 'Placer', 'Alpine', 'Amador']",Walnuts English,3231.71,0.65
+641,Walnuts,Fresno,10133.91799961,"['Kings', 'Monterey', 'Inyo', 'Mono', 'San Benito', 'Madera', 'Merced', 'Tulare']",Walnuts English,1337.99,1.84
+642,Walnuts,Glenn,35825.87902314,"['Mendocino', 'Colusa', 'Tehama', 'Butte', 'Lake']",Walnuts English,1009.83,2.59
+643,Walnuts,Kern,1420.77431883,"['Santa Barbara', 'Ventura', 'Los Angeles', 'Kings', 'Inyo', 'San Bernardino', 'Tulare', 'San Luis Obispo']",Walnuts English,1216.67,1.33
+644,Walnuts,Kings,18775.74291635,"['Monterey', 'Kern', 'Fresno', 'Tulare', 'San Luis Obispo']",Walnuts English,1301.2,2.15
+645,Walnuts,Lake,4958.54352561,"['Sonoma', 'Napa', 'Mendocino', 'Yolo', 'Colusa', 'Glenn']",Walnuts English,903.45,0.33
+646,Walnuts,Madera,3174.98037955,"['Mariposa', 'Mono', 'Tuolumne', 'Fresno', 'Merced']",Walnuts English,1685.93,1.65
+647,Walnuts,Marin,6.5375841900000005,"['Sonoma', 'San Francisco', 'Solano', 'Contra Costa']",,,
+648,Walnuts,Mendocino,138.3736279,"['Sonoma', 'Trinity', 'Humboldt', 'Tehama', 'Lake', 'Glenn']",,,
+649,Walnuts,Merced,9309.93041792,"['Mariposa', 'San Benito', 'Fresno', 'Madera', 'Santa Clara', 'Stanislaus']",Walnuts English,1454.66,1.75
+650,Walnuts,Monterey,371.6524428,"['Kings', 'San Benito', 'Fresno', 'Santa Cruz', 'San Luis Obispo']",,,
+651,Walnuts,Napa,90.5527246,"['Sonoma', 'Solano', 'Yolo', 'Lake']",,,
+652,Walnuts,Nevada,7.1308234,"['Sierra', 'Placer', 'Yuba']",,,
+653,Walnuts,Placer,3698.9661329,"['Sacramento', 'El Dorado', 'Yuba', 'Nevada', 'Sutter']",Walnuts English,1879.14,2.01
+654,Walnuts,Sacramento,2225.93075339,"['Placer', 'Solano', 'Contra Costa', 'El Dorado', 'Yolo', 'San Joaquin', 'Sutter', 'Amador']",Walnuts English,1680.08,1.9
+655,Walnuts,San Benito,1515.20797672,"['Monterey', 'Fresno', 'Santa Clara', 'Merced', 'Santa Cruz']",Walnuts English,1421.31,0.45
+656,Walnuts,San Joaquin,70053.27207837,"['Sacramento', 'Calaveras', 'Contra Costa', 'Alameda', 'Stanislaus', 'Amador']",Walnuts English,1422.6,2.08
+657,Walnuts,San Luis Obispo,2024.01244233,"['Santa Barbara', 'Kings', 'Monterey', 'Kern']",Walnuts English,1449.93,0.47
+658,Walnuts,Santa Barbara,437.84491355,"['Ventura', 'Kern', 'San Luis Obispo']",,,
+659,Walnuts,Santa Clara,632.77730313,"['San Benito', 'Alameda', 'Merced', 'Stanislaus', 'San Mateo', 'Santa Cruz']",Walnuts English,1523.12,1.2
+660,Walnuts,Santa Cruz,54.20860262,"['Monterey', 'San Benito', 'Santa Clara', 'San Mateo']",,,
+661,Walnuts,Shasta,1430.79584072,"['Lassen', 'Trinity', 'Modoc', 'Tehama', 'Plumas', 'Siskiyou']",Walnuts English,1340.82,1.4
+662,Walnuts,Solano,12142.51597496,"['Sacramento', 'Sonoma', 'Marin', 'Napa', 'Contra Costa', 'Yolo']",Walnuts English,1148.93,1.83
+663,Walnuts,Sonoma,141.2448824,"['Marin', 'Napa', 'Mendocino', 'Solano', 'Contra Costa', 'Lake']",,,
+664,Walnuts,Stanislaus,34933.45368129,"['Calaveras', 'Mariposa', 'Tuolumne', 'Santa Clara', 'San Joaquin', 'Alameda', 'Merced']",Walnuts English,1400.0,1.94
+665,Walnuts,Sutter,39530.31723938,"['Sacramento', 'Placer', 'Yolo', 'Yuba', 'Colusa', 'Butte']",Walnuts English,1207.17,1.68
+666,Walnuts,Tehama,29587.01942161,"['Shasta', 'Trinity', 'Mendocino', 'Butte', 'Plumas', 'Glenn']",Walnuts English,1231.19,2.12
+667,Walnuts,Tulare,40361.31098475,"['Kings', 'Inyo', 'Kern', 'Fresno']",Walnuts English,1300.0,2.05
+668,Walnuts,Ventura,131.33127438,"['Santa Barbara', 'Los Angeles', 'Kern']",,,
+669,Walnuts,Yolo,17619.46128224,"['Sacramento', 'Napa', 'Solano', 'Colusa', 'Sutter', 'Lake']",Walnuts English,1450.0,1.3
+670,Walnuts,Yuba,17019.75071868,"['Sierra', 'Placer', 'Nevada', 'Butte', 'Sutter', 'Plumas']",Walnuts English,1118.39,2.0
