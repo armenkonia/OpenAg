@@ -42,7 +42,7 @@ import pickle
 # with open("crop_yield_data.pkl", "wb") as pickle_file:
 #     pickle.dump(data_by_year, pickle_file)
 
-with open('../../Datasets/econ_crop_data/meta_usda_crop_data.pkl', "rb") as pickle_file:
+with open('../../Datasets/meta_usda_crop_data.pkl', "rb") as pickle_file:
     data_by_year = pickle.load(pickle_file)
 
 ## 1981 to 2020 the format of the table is the same, thus we first concat 1981 to 2020 period    
@@ -95,5 +95,5 @@ counties = pd.DataFrame(meta_df['County'].unique()) # number of counties should 
 # crop_names = pd.DataFrame(meta_df['Crop Name'].unique())
 
 meta_df = meta_df[meta_df.Year >= 2018]
-meta_df.to_csv('../../Datasets/econ_crop_data/usda_crops_18_22.csv')
+meta_df.to_csv('../../Datasets/Output/usda_crops_18_22.csv')
 

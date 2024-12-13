@@ -10,15 +10,17 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-usda_crops = pd.read_csv('../../Datasets/econ_crop_data/usda_crops_18_22.csv')
-counties_hr = pd.read_csv('../../Datasets/econ_crop_data/counties_hr_neighbors.csv')
+usda_crops = pd.read_csv('../../Datasets/Output/usda_crops_18_22.csv')
+counties_hr = pd.read_csv('../../Datasets/Output/counties_hr_neighbors.csv')
 
-## transform the USDA crops dataset into a more interpretable format
+# =============================================================================
+# transform the USDA crops dataset into a more interpretable format
+# =============================================================================
 usda_crops['County'] = usda_crops['County'].str.strip().str.lower()
 counties_hr['NAME'] = counties_hr['NAME'].str.strip().str.lower()
 usda_crops = usda_crops.merge(counties_hr[['NAME']],left_on='County',right_on='NAME', how='left').drop('NAME',axis=1)
 
-usda_openag_bridge = pd.read_excel('../../Datasets/econ_crop_data/bridge openag.xlsx',sheet_name='usda & openag', header=0, nrows=25)
+usda_openag_bridge = pd.read_excel('../../Datasets/bridge openag.xlsx',sheet_name='usda & openag', header=0, nrows=25)
 
 # keep price, yield, and area for each crop in every county for the years 2018 to 2022
 usda_crops = usda_crops[['Year', 'Crop Name','County', 'Price P/U','Production','Yield','Harvested Acres','Unit']]
@@ -34,23 +36,15 @@ usda_crops['Unit'] = usda_crops['Unit'].str.strip()  # Removes leading and trail
 unit_df = usda_crops.pivot_table(index=['Crop Name', 'County'], columns='Year', values='Unit',aggfunc='first').add_prefix('Unit_').reset_index()
 unit_df = unit_df[['Crop Name', 'County', 'Unit_2018']]
 
-
-# usda_crops['Unit'] = usda_crops['Unit'].str.strip()  # Removes leading and trailing whitespace
-# inconsistent_units = usda_crops.groupby(['Crop Name', 'County', 'HR_NAME'])['Unit'].nunique()
-# unit_groups = usda_crops.groupby(['Crop Name', 'County', 'HR_NAME'])['Unit'].nunique()
-# inconsistent_groups = unit_groups[unit_groups > 1].index
-# # Filter the original DataFrame to show rows with these inconsistent units
-# inconsistent_rows = usda_crops[usda_crops.set_index(['Crop Name', 'County', 'HR_NAME']).index.isin(inconsistent_groups)]
-# unit_df = inconsistent_rows.pivot_table(index=['Crop Name', 'County', 'HR_NAME'], columns='Year', values='Unit',aggfunc='first').add_prefix('Unit_').reset_index()
-# unit_df = unit_df[['Crop Name', 'County', 'HR_NAME', 'Unit_2018']]
-
 usda_crops = pd.merge(price_df, yield_df, on=['County', 'Crop Name'], how='outer')
 usda_crops = pd.merge(usda_crops, acres_df, on=['County', 'Crop Name'], how='outer')
 usda_crops = pd.merge(usda_crops, production_df, on=['County', 'Crop Name'], how='outer')
 usda_crops = pd.merge(usda_crops, unit_df, on=['County', 'Crop Name'], how='left')
 
 
-## update the bridge by eliminating duplicate USDA crop entries
+# =============================================================================
+# update the bridge by eliminating duplicate USDA crop entries
+# =============================================================================
 # keep usda crops that are found in bridge
 usda_crops_used = pd.unique(usda_openag_bridge.iloc[:,1:].values.ravel('K'))
 usda_crops = usda_crops[usda_crops['Crop Name'].isin(usda_crops_used)]
@@ -102,7 +96,9 @@ def squeeze_nan(x):
 usda_openag_bridge_updated = usda_openag_bridge_updated.apply(squeeze_nan, axis=1)
 usda_openag_bridge_updated = usda_openag_bridge_updated.dropna(axis=1, how='all')
 
-## update usda crops dataset to include geometric information
+# =============================================================================
+# update usda crops dataset to include geometric information
+# =============================================================================
 usda_crops = usda_crops.merge(counties_hr[['NAME', 'HR_NAME','Neighboring Counties', 'Neighboring HR']],left_on='County',right_on='NAME', how='left').drop('NAME',axis=1)
 usda_crops = usda_crops[['County', 'Crop Name', 'HR_NAME', 'Neighboring Counties', 'Neighboring HR',
                             'price_2018', 'price_2019', 'price_2020','price_2021', 'price_2022', 
@@ -114,6 +110,30 @@ usda_crops = usda_crops[['County', 'Crop Name', 'HR_NAME', 'Neighboring Counties
                             'Production_2020', 'Production_2021', 'Production_2022', 
                             'Unit_2018'
                             ]]
-usda_crops.to_csv('../../Datasets/econ_crop_data/processed_usda_crops_18_22.csv')
-with pd.ExcelWriter('../../Datasets/econ_crop_data/bridge openag.xlsx', engine='openpyxl', mode='a') as writer:
+    
+# =============================================================================
+# check for crops in usda_openag_bridge that are missing in usda crops
+# =============================================================================
+usda_openag_bridge = usda_openag_bridge_updated.copy()
+# melt usda_openag_bridge dataset
+value_vars = [col for col in usda_openag_bridge.columns if col != 'Crop_OpenAg'] # Identify all usda columns
+usda_openag_bridge_melted = pd.melt(usda_openag_bridge, id_vars=['Crop_OpenAg'], value_vars=value_vars, value_name='USDA_Crop')
+usda_openag_bridge_melted = usda_openag_bridge_melted.dropna(subset=['USDA_Crop']).reset_index(drop=True)
+usda_openag_bridge_melted = usda_openag_bridge_melted.drop(columns=['variable'])
+not_found_in_usda = usda_openag_bridge_melted[~usda_openag_bridge_melted['USDA_Crop'].isin(set(usda_crops['Crop Name']))].reset_index(drop=True)
+
+## get 5-yr average (2018 to 2022) of price yield acres and production
+usda_crops_av = pd.melt(usda_crops, id_vars=['County', 'Crop Name', 'HR_NAME', 'Neighboring Counties','Neighboring HR', 'Unit_2018'],
+                    value_vars=
+                    ['price_2018', 'price_2019', 'price_2020','price_2021', 'price_2022', 
+                     'yield_2018', 'yield_2019', 'yield_2020','yield_2021', 'yield_2022', 
+                     'Acres_2018', 'Acres_2019', 'Acres_2020','Acres_2021', 'Acres_2022', 
+                     'Production_2018', 'Production_2019','Production_2020', 'Production_2021', 'Production_2022'],
+                    var_name='year_type', value_name='value')
+# Extract year and type (price or yield) from the 'year_type' column
+usda_crops_av['year'] = usda_crops_av['year_type'].str.extract(r'(\d{4})')  # Extract year (e.g., 2018, 2019)
+usda_crops_av['type'] = usda_crops_av['year_type'].str.extract(r'(price|yield|Acres|Production)')  # Extract price or yield
+usda_crops_av.to_csv('../../Datasets/Output/processed_usda_crops_18_22.csv')
+
+with pd.ExcelWriter('../../Datasets/bridge openag.xlsx', engine='openpyxl', mode='a') as writer:
     usda_openag_bridge_updated.to_excel(writer, sheet_name='updated usda & openag', index=False)

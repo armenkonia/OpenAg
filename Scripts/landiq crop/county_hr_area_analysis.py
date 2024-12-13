@@ -62,10 +62,10 @@ hr_gdf['Neighboring HR'] = hr_gdf['HR_NAME'].map(hr_neighbors)
 # add neighboring HR info to counties_gdf
 counties_gdf['Neighboring HR'] = counties_gdf['HR_NAME'].map(hr_neighbors)
 
-counties_gdf.to_csv('../../Datasets/econ_crop_data/counties_hr_neighbors.csv')
+counties_gdf.to_csv('../../Datasets/Output/counties_hr_neighbors.csv')
 
 ## plot neighboring counties for each county 
-output_folder ='../../Datasets/econ_crop_data/Data Validation/county_neighbor_plots'
+output_folder ='../../Datasets/Output/Data Validation/county_neighbor_plots'
 os.makedirs(output_folder, exist_ok=True)  
 
 for county in counties_gdf['County'].unique():
