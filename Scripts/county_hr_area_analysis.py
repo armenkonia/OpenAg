@@ -9,8 +9,8 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import os
 
-counties_gdf = gpd.read_file('../../Datasets/GIS data/ca_counties/CA_Counties.shp')
-hr_gdf = gpd.read_file('../../Datasets/GIS data/i03_Hydrologic_Regions/i03_Hydrologic_Regions.shp')
+counties_gdf = gpd.read_file('../Datasets/GIS data/ca_counties/CA_Counties.shp')
+hr_gdf = gpd.read_file('../Datasets/GIS data/i03_Hydrologic_Regions/i03_Hydrologic_Regions.shp')
 counties_gdf = counties_gdf.to_crs(epsg=3310)
 hr_gdf = hr_gdf.to_crs(epsg=3310)
 
@@ -62,10 +62,10 @@ hr_gdf['Neighboring HR'] = hr_gdf['HR_NAME'].map(hr_neighbors)
 # add neighboring HR info to counties_gdf
 counties_gdf['Neighboring HR'] = counties_gdf['HR_NAME'].map(hr_neighbors)
 
-counties_gdf.to_csv('../../Datasets/Output/counties_hr_neighbors.csv')
+counties_gdf.to_csv('../Datasets/Output/counties_hr_neighbors.csv')
 
 ## plot neighboring counties for each county 
-output_folder ='../../Datasets/Output/Data Validation/county_neighbor_plots'
+output_folder ='../Datasets/Output/Data Validation/county_neighbor_plots'
 os.makedirs(output_folder, exist_ok=True)  
 
 for county in counties_gdf['County'].unique():

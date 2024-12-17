@@ -8,17 +8,12 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import os
 import pickle 
-usda_crops_av = pd.read_csv('../../Datasets/Output/processed_usda_crops_18_22.csv',index_col=0)
-#only keep relevant columns
-# usda_crops_av = usda_crops_av[['County', 'Crop Name','HR_NAME','value','year','type']]
-#transform back to original format
-usda_crops_av = usda_crops_av.pivot_table(index=["County", "Crop Name", "HR_NAME"], columns="type", values="value", aggfunc="mean").reset_index()
-usda_crops_av = usda_crops_av[['Crop Name', 'County', 'HR_NAME', 'price', 'Production', 'Acres','yield']]
+usda_crops_av = pd.read_csv('../Datasets/Output/processed_usda_crops_18_22.csv',index_col=0)
+usda_crops_av = usda_crops_av[['Crop Name', 'County', 'HR_NAME', 'price_avg', 'production_avg', 'acres_avg','yield_avg']]
 usda_crops_av.columns = ['Crop Name', 'County', 'HR_NAME', 'Price ($/unit)', 'Production (unit)', 'Area (acreage)', 'Yield (unit/acreage)']
 usda_crops_av = usda_crops_av.dropna(subset=['Area (acreage)','Price ($/unit)']) # drop nan rows because we cant do weighted average if either of this two are missing
 
-
-usda_openag_bridge = pd.read_excel('../../Datasets/bridge openag.xlsx',sheet_name='updated usda & openag', header=0)
+usda_openag_bridge = pd.read_excel('../Datasets/bridge openag.xlsx',sheet_name='updated usda & openag', header=0)
 value_vars = [col for col in usda_openag_bridge.columns if col != 'Crop_OpenAg'] # Identify all usda columns
 usda_openag_bridge_melted = pd.melt(usda_openag_bridge, id_vars=['Crop_OpenAg'], value_vars=value_vars, value_name='USDA_Crop')
 usda_openag_bridge_melted = usda_openag_bridge_melted.dropna(subset=['USDA_Crop']).reset_index(drop=True)
@@ -97,7 +92,6 @@ def select_proxy_crop(crop, area_diff_threshold=10):
 
     # Initialize dictionary for proxy crop
     proxy_crop = {}
-
     # Logic for selecting the proxy crop
     if len(crop_df) == 1:
         # Only one potential proxy crop is available
@@ -187,7 +181,7 @@ def plot_crop_data(agg_crops, crop_list, region_name='Sacramento River'):
         axs[1].set_ylim(0, 100)  # Set y-axis limit for percent area
 
         # Adjust layout to prevent overlap and save the plot
-        save_path = f'../../Datasets/Output/Data Validation/commodity_crops/{region_name}_{crop}_plots.png'
+        save_path = f'../Datasets/Output/Data Validation/commodity_crops/{region_name}_{crop}_plots.png'
         os.makedirs(os.path.dirname(save_path), exist_ok=True)  # Create directories if they don't exist
         plt.tight_layout()
         plt.savefig(save_path, bbox_inches='tight')
@@ -209,7 +203,7 @@ for hr_name in usda_crops_av['HR_NAME'].unique():
     hr_crop_analysis_results_dict [hr_name] = {'agg_crops': agg_crops,
                                                'proxy crop': lowest_diff_df}
     
-with open('../../Datasets/Output/hr_crop_analysis_results.pkl', 'wb') as f:
+with open('../Datasets/Output/hr_crop_analysis_results.pkl', 'wb') as f:
     pickle.dump(hr_crop_analysis_results_dict, f) 
 
 # Retrieve proxy crops for each HR
@@ -222,4 +216,4 @@ for hr_name, result in hr_crop_analysis_results_dict.items():
     proxy_crops_list.append(proxy_crops_df)
 proxy_crops_df = pd.concat(proxy_crops_list, ignore_index=True)
 proxy_crops_df['Crop_OpenAg'] = proxy_crops_df['Crop_OpenAg'].str.replace('^WA_', '', regex=True)
-proxy_crops_df.to_csv('../../Datasets/Output/proxy_crops_hr.csv')
+proxy_crops_df.to_csv('../Datasets/Output/proxy_crops_hr.csv')

@@ -10,8 +10,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-usda_crops = pd.read_csv('../../Datasets/Output/usda_crops_18_22.csv')
-counties_hr = pd.read_csv('../../Datasets/Output/counties_hr_neighbors.csv')
+usda_crops = pd.read_csv('../Datasets/Output/usda_crops_18_22.csv')
+counties_hr = pd.read_csv('../Datasets/Output/counties_hr_neighbors.csv')
 
 # =============================================================================
 # transform the USDA crops dataset into a more interpretable format
@@ -20,9 +20,8 @@ usda_crops['County'] = usda_crops['County'].str.strip().str.lower()
 counties_hr['NAME'] = counties_hr['NAME'].str.strip().str.lower()
 usda_crops = usda_crops.merge(counties_hr[['NAME']],left_on='County',right_on='NAME', how='left').drop('NAME',axis=1)
 
-usda_openag_bridge = pd.read_excel('../../Datasets/bridge openag.xlsx',sheet_name='usda & openag', header=0, nrows=25)
+usda_openag_bridge = pd.read_excel('../Datasets/bridge openag.xlsx',sheet_name='usda & openag', header=0, nrows=25)
 
-# keep price, yield, and area for each crop in every county for the years 2018 to 2022
 usda_crops = usda_crops[['Year', 'Crop Name','County', 'Price P/U','Production','Yield','Harvested Acres','Unit']]
 usda_crops['Harvested Acres'] = pd.to_numeric(usda_crops['Harvested Acres'], errors='coerce')
 usda_crops['Production'] = pd.to_numeric(usda_crops['Production'], errors='coerce')
@@ -133,7 +132,13 @@ usda_crops_av = pd.melt(usda_crops, id_vars=['County', 'Crop Name', 'HR_NAME', '
 # Extract year and type (price or yield) from the 'year_type' column
 usda_crops_av['year'] = usda_crops_av['year_type'].str.extract(r'(\d{4})')  # Extract year (e.g., 2018, 2019)
 usda_crops_av['type'] = usda_crops_av['year_type'].str.extract(r'(price|yield|Acres|Production)')  # Extract price or yield
-usda_crops_av.to_csv('../../Datasets/Output/processed_usda_crops_18_22.csv')
 
-with pd.ExcelWriter('../../Datasets/bridge openag.xlsx', engine='openpyxl', mode='a') as writer:
+#transform back to original format
+usda_crops_av = usda_crops_av.pivot_table(index=["County", "Crop Name", "HR_NAME", "Neighboring Counties", "Neighboring HR"], columns="type", values="value", aggfunc="mean").reset_index()
+usda_crops_av = usda_crops_av[['Crop Name', 'County', 'HR_NAME', "Neighboring Counties", "Neighboring HR", 'price', 'Production', 'Acres','yield']]
+usda_crops_av.columns = ['Crop Name', 'County', 'HR_NAME', "Neighboring Counties", "Neighboring HR", 'price_avg', 'production_avg', 'acres_avg', 'yield_avg']
+usda_crops_av = usda_crops_av.dropna(subset=['acres_avg','price_avg']) # drop nan rows because we cant do weighted average if either of this two are missing
+usda_crops_av.to_csv('../Datasets/Output/processed_usda_crops_18_22.csv')
+
+with pd.ExcelWriter('../Datasets/bridge openag.xlsx', engine='openpyxl', mode='a') as writer:
     usda_openag_bridge_updated.to_excel(writer, sheet_name='updated usda & openag', index=False)

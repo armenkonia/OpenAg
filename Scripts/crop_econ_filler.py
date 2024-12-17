@@ -7,7 +7,7 @@ Created on Thu Dec 12 14:56:29 2024
 
 import pandas as pd
 import ast
-econ_data = pd.read_csv('../../Datasets/Output/processed_usda_crops_20.csv',index_col=0)
+econ_data = pd.read_csv('../Datasets/Output/processed_usda_crops_20.csv',index_col=0)
 
 def process_and_fill_variable(crop_data, fill_column, categorization_column):
     """
@@ -38,7 +38,7 @@ def process_and_fill_variable(crop_data, fill_column, categorization_column):
     crop_data[f'hr_avg_{fill_column}'] = crop_data.set_index([categorization_column, 'HR_NAME']).index.map(hr_avg_values_dict)
 
     # 3. Calculate average value for neighboring HRs
-    counties_hr = pd.read_csv('../../Datasets/Output/counties_hr_neighbors.csv')
+    counties_hr = pd.read_csv('../Datasets/Output/counties_hr_neighbors.csv')
     hr_avg_values_df = pd.DataFrame(hr_avg_values).reset_index()
     hr_avg_values_with_neighbors = hr_avg_values_df.merge(counties_hr[['HR_NAME', 'Neighboring HR']],how='left',on='HR_NAME').drop_duplicates()
     hr_avg_values_with_neighbors['Neighboring HR'] = hr_avg_values_with_neighbors['Neighboring HR'].apply(ast.literal_eval)
@@ -92,7 +92,7 @@ for sel_variable in columns_to_fill:
 econ_data = econ_data[['Crop_OpenAg','Crop_Subtype', 'County', 'HR_NAME', 'final_price_avg','final_yield_avg','final_acres_avg','final_fraction']]
 econ_data.set_index(['Crop_OpenAg', 'County', 'HR_NAME'], inplace=True)
 econ_data.columns = econ_data.columns.str.replace('final_', '', regex=True)
-econ_data.to_csv('../../Datasets/Output/filled_crop_economic_data.csv')
+econ_data.to_csv('../Datasets/Output/filled_crop_economic_data.csv')
 
 # =============================================================================
 # to check if the percentages are right 

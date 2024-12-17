@@ -10,16 +10,10 @@ import pandas as pd
 import itertools
 
 # crop_combinations = pd.read_csv('../../Datasets/Output/ca_county_openag_crop_combinations.csv', index_col=0)
-proxy_crops_df = pd.read_csv('../../Datasets/Output/proxy_crops_hr.csv')
-counties_hr = pd.read_csv('../../Datasets/Output/counties_hr_neighbors.csv')
-crop_id = pd.read_excel("../../Datasets/bridge openag.xlsx",sheet_name='updated usda & openag')
-usda_crops_av = pd.read_csv('../../Datasets/Output/processed_usda_crops_18_22.csv', index_col=0)
-#transform back to original format
-usda_crops_av = usda_crops_av.pivot_table(index=["County", "Crop Name", "HR_NAME", "Neighboring Counties", "Neighboring HR"], columns="type", values="value", aggfunc="mean").reset_index()
-
-usda_crops_av = usda_crops_av[['Crop Name', 'County', 'HR_NAME', "Neighboring Counties", "Neighboring HR", 'price', 'Production', 'Acres','yield']]
-usda_crops_av.columns = ['Crop Name', 'County', 'HR_NAME', "Neighboring Counties", "Neighboring HR", 'price_avg', 'production_avg', 'acres_avg', 'yield_avg']
-usda_crops_av = usda_crops_av.dropna(subset=['acres_avg','price_avg']) # drop nan rows because we cant do weighted average if either of this two are missing
+proxy_crops_df = pd.read_csv('../Datasets/Output/proxy_crops_hr.csv')
+counties_hr = pd.read_csv('../Datasets/Output/counties_hr_neighbors.csv')
+crop_id = pd.read_excel("../Datasets/bridge openag.xlsx",sheet_name='updated usda & openag')
+usda_crops_av = pd.read_csv('../Datasets/Output/processed_usda_crops_18_22.csv', index_col=0)
 
 # =============================================================================
 # Get all possible combination of crops in each county. thus, 21x58
@@ -104,4 +98,4 @@ econ_tomatoes = econ_tomatoes.drop(columns=['fraction_updated'])
 econ_data_non_grapes_tomatoes = econ_data.loc[~econ_data.Crop_OpenAg.isin(['Grapes', 'Tomatoes'])]
 econ_data = pd.concat([econ_data_non_grapes_tomatoes, econ_grapes, econ_tomatoes])
 
-econ_data.to_csv('../../Datasets/Output/processed_usda_crops_20.csv')
+econ_data.to_csv('../Datasets/Output/processed_usda_crops_20.csv')

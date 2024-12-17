@@ -10,16 +10,15 @@ import geopandas as gpd
 import numpy as np
 
 # Load datasets
-econ_data = pd.read_csv('../../Datasets/Output/filled_crop_economic_data.csv')
-meta_landiq20 = gpd.read_file(r"C:\Users\armen\Documents\ArcGIS\Projects\COEQWAL\COEQWAL.gdb", layer='landiq20_CVID_GW_DU_SR')
-crop_mapping = pd.read_excel("../../Datasets/bridge openag.xlsx", sheet_name='landiq20 & openag')
+econ_data = pd.read_csv('../Datasets/Output/filled_crop_economic_data.csv')
+meta_landiq20 = gpd.read_file(r"..\Datasets\ArcGIS Projects\LandIQ20_meta\LandIQ20_meta.gdb", layer='landiq20_CVID_GW_DU_SR')
+crop_mapping = pd.read_excel("../Datasets/bridge openag.xlsx", sheet_name='landiq20 & openag')
 # 'GSA_ID','DU_ID','Subregion','COUNTY','HYDRO_RGN'
 
-#%%
 grouping_column = 'DU_ID'
 landiq20 = meta_landiq20.copy()
 # =============================================================================
-# Bridge landiq with econ data
+# Clip econ data to landiq parcels 
 # =============================================================================
 openag_mapping_dict = crop_mapping.set_index('CROPTYP2')['Crop_OpenAg'].to_dict()
 landiq20['Crop_OpenAg'] = landiq20['CROPTYP2'].map(openag_mapping_dict)
@@ -104,4 +103,4 @@ perennial_data.columns = [grouping_column, 'Crop_OpenAg', 'final_price', 'final_
 final_aggregated_data = pd.concat([perennial_data, non_perennial_data])
 final_aggregated_data = final_aggregated_data[[grouping_column, 'Crop_OpenAg', 'final_price', 'final_yield', 'Total_Acres']]
 final_aggregated_data.columns = [grouping_column, 'Crop', 'Price ($/unit)', 'Yield (unit/acre)', 'Area (acre)']
-final_aggregated_data.to_csv('../../Datasets/Output/final_crop_economic_data.csv')
+final_aggregated_data.to_csv('../Datasets/Output/final_crop_economic_data.csv')
