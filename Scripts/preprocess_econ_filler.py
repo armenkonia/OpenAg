@@ -20,8 +20,8 @@ usda_crops_av = pd.read_csv('../Datasets/Output/processed_usda_crops_18_22.csv',
 # =============================================================================
 crop_id = crop_id[~crop_id['Crop_OpenAg'].isin(['Idle', 'na', 'Young Perennial','Pasture'])]
 openag_crops = crop_id.Crop_OpenAg
-openag_crops = pd.concat([openag_crops, pd.Series(["Grapes Wine", "Grapes Table", "Grapes Raisin",
-                                                    "Tomatoes Unspecified", "Tomatoes Processing", "Tomatoes Fresh Market"])], ignore_index=True)
+exceptional_crops = pd.Series([crop for crop in usda_crops_av['Crop Name'].unique() if 'Grapes' in crop or 'Tomatoes' in crop],)
+openag_crops = pd.concat([openag_crops, exceptional_crops], ignore_index=True)
 openag_crops = openag_crops[~openag_crops.isin(["Grapes", "Tomatoes"])].reset_index(drop=True)
 counties_ca = counties_hr.NAME.unique()
 combinations = list(itertools.product(counties_ca, openag_crops))

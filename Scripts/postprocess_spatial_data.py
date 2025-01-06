@@ -47,20 +47,31 @@ grapes_tomatoes_columns = [col for col in pivot_table.columns if 'Grapes' in col
 pivot_table = pivot_table[grapes_tomatoes_columns]
 pivot_table['row_sum'] = pivot_table.sum(axis=1)
 
-
 # =============================================================================
-# Calculate weighted average price and yield for exceptional crops (grapes and tomatoes)
+# Remove parcels outside of spatial classification and non-crops 
 # =============================================================================
-def calculate_weighted_values(group):
-    return pd.Series({
-        'Price': (group['Price'] * group['Fraction']).sum(),
-        'Yield': (group['Yield'] * group['Fraction']).sum()})
-landiq20_grouped = landiq20_grouped.groupby([grouping_column, 'Crop_OpenAg','ACRES'], group_keys=False).apply(calculate_weighted_values, include_groups=False).reset_index()
-
 landiq20_grouped = landiq20_grouped[
     (landiq20_grouped[grouping_column].str.strip() != '') &  # Remove rows where 'DU_ID' is empty
     (landiq20_grouped['Crop_OpenAg'] != 'Idle') &   # Remove rows where 'Crop_OpenAg' is 'Idle'
     (landiq20_grouped['Crop_OpenAg'] != 'na')]              # Remove rows where 'DU_ID' is Na
+
+# =============================================================================
+# # =============================================================================
+# Calculate weighted average price and yield for exceptional crops (grapes and tomatoes). 
+# Do this if you want to combine crops into a single class.
+# # =============================================================================
+# def calculate_weighted_values(group):
+#     return pd.Series({
+#         'Price': (group['Price'] * group['Fraction']).sum(),
+#         'Yield': (group['Yield'] * group['Fraction']).sum()})
+# landiq20_grouped = landiq20_grouped.groupby([grouping_column, 'Crop_OpenAg','ACRES'], group_keys=False).apply(calculate_weighted_values, include_groups=False).reset_index()
+# =============================================================================
+
+# =============================================================================
+# This step is done to keep each subclassification seperate for exceptional crops (grapes and tomatoes). 
+# =============================================================================
+landiq20_grouped.loc[landiq20_grouped['Crop_OpenAg'] == 'Grapes', 'Crop_OpenAg'] = landiq20_grouped['Crop_Subtype']
+landiq20_grouped.loc[landiq20_grouped['Crop_OpenAg'] == 'Tomatoes', 'Crop_OpenAg'] = landiq20_grouped['Crop_Subtype']
 
 # =============================================================================
 # Add price and yields for Pasture
